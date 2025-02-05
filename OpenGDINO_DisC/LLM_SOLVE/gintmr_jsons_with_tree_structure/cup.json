@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "cup",
+        "discription": "a common household item used for drinking"
+    },
+    "object1": {
+        "name": "vase",
+        "discription": "in parallel with 'cup', is a decorative container often used for holding flowers"
+    },
+    "object2": {
+        "name": "bowl",
+        "discription": "in parallel with 'cup', is a round, open container used for serving food"
+    },
+    "object3": {
+        "name": "mug",
+        "discription": "in parallel with 'cup', is a larger, often handle-equipped cup typically used for hot beverages"
+    },
+    "object4": {
+        "name": "jug",
+        "discription": "in parallel with 'cup', is a large container with a handle and spout, used for holding and pouring liquids"
+    },
+    "object5": {
+        "name": "plate",
+        "discription": "in parallel with 'cup', is a flat dish used for serving food"
+    },
+    "object6": {
+        "name": "glass",
+        "discription": "in parallel with 'cup', is a drinking vessel made from glass, often used for water or alcoholic beverages"
+    },
+    "object7": {
+        "name": "pot",
+        "discription": "in parallel with 'cup', is a container used for cooking or serving food, often with a handle and lid"
+    },
+    "object8": {
+        "name": "bottle",
+        "discription": "in parallel with 'cup', is a container with a narrow neck, used for holding liquids"
+    }
+}

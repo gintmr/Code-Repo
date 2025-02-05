@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "teddy bear",
+        "discription": "A soft, stuffed toy in the shape of a bear, often given to children as a gift."
+    },
+    "object1": {
+        "name": "robot",
+        "discription": "in parallel with 'teddy bear', is an autonomous machine capable of performing tasks on its own, often used in industrial or household settings."
+    },
+    "object2": {
+        "name": "doll",
+        "discription": "in parallel with 'teddy bear', is a small, often soft, toy representing a human figure, popular among children for play."
+    },
+    "object3": {
+        "name": "action figure",
+        "discription": "in parallel with 'teddy bear', is a poseable character model, often based on characters from movies, comics, or video games, popular among collectors and children."
+    },
+    "object4": {
+        "name": "stuffed animal",
+        "discription": "in parallel with 'teddy bear', is a soft toy in the shape of various animals, not limited to bears, often used for comfort and play."
+    },
+    "object5": {
+        "name": "plushie",
+        "discription": "in parallel with 'teddy bear', is a soft, stuffed toy, often with a cute or whimsical design, popular among all ages for its comfort and aesthetic appeal."
+    },
+    "object6": {
+        "name": "wind-up toy",
+        "discription": "in parallel with 'teddy bear', is a mechanical toy that moves when a key is wound up, often found in the form of small animals or vehicles."
+    },
+    "object7": {
+        "name": "board game",
+        "discription": "in parallel with 'teddy bear', is a tabletop game that involves counters, dice, or other pieces moved or placed on a pre-marked surface according to a set of rules."
+    },
+    "object8": {
+        "name": "puzzle",
+        "discription": "in parallel with 'teddy bear', is a game or problem designed to test ingenuity or knowledge, often in the form of a picture or shape that needs to be assembled from smaller pieces."
+    }
+}

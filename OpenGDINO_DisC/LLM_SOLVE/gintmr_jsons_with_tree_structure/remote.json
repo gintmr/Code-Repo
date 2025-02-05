@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "remote",
+        "discription": "A device used to operate electronic equipment from a distance."
+    },
+    "object1": {
+        "name": "joystick",
+        "discription": "in parallel with 'remote', is a handheld device with a stick that pivots to control the direction of movement in video games or other electronic systems."
+    },
+    "object2": {
+        "name": "keyboard",
+        "discription": "in parallel with 'remote', is a set of keys used to input text and commands into a computer or typewriter."
+    },
+    "object3": {
+        "name": "mouse",
+        "discription": "in parallel with 'remote', is a handheld pointing device that detects two-dimensional motion relative to a surface, used to control the movement of the cursor on a computer screen."
+    },
+    "object4": {
+        "name": "touchpad",
+        "discription": "in parallel with 'remote', is a touch-sensitive surface that allows for the control of the pointer or cursor by using a finger to move it across the surface."
+    },
+    "object5": {
+        "name": "trackball",
+        "discription": "in parallel with 'remote', is a pointing device consisting of a ball held by a socket containing sensors to detect a rotation of the ball about two axes\u2014like an upside-down mouse with a ball on top."
+    },
+    "object6": {
+        "name": "gamepad",
+        "discription": "in parallel with 'remote', is a type of game controller held with both hands where buttons and thumbsticks are used to provide input."
+    },
+    "object7": {
+        "name": "touchscreen",
+        "discription": "in parallel with 'remote', is a display that can detect the presence and location of a touch within the display area, allowing direct interaction with what is displayed."
+    },
+    "object8": {
+        "name": "voice-activated assistant",
+        "discription": "in parallel with 'remote', is a device or application that uses voice recognition to understand and respond to spoken commands, often used for controlling smart home devices or performing tasks."
+    }
+}

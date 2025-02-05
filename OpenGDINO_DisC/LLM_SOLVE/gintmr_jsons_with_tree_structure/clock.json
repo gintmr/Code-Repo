@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "clock",
+        "discription": "A device used to measure and indicate time."
+    },
+    "object1": {
+        "name": "sundial",
+        "discription": "in parallel with 'clock', is a device that indicates the time of day by the position of the shadow of some object on which the Sun's rays fall."
+    },
+    "object2": {
+        "name": "hourglass",
+        "discription": "in parallel with 'clock', is a device used to measure the passage of time by observing the flow of sand from one chamber to another."
+    },
+    "object3": {
+        "name": "watch",
+        "discription": "in parallel with 'clock', is a small timepiece worn typically on a strap on one's wrist."
+    },
+    "object4": {
+        "name": "chronometer",
+        "discription": "in parallel with 'clock', is a highly accurate timekeeping device, often used for navigation at sea."
+    },
+    "object5": {
+        "name": "pendulum clock",
+        "discription": "in parallel with 'clock', is a clock that uses a pendulum, a swinging weight, to regulate the movement of its gears."
+    },
+    "object6": {
+        "name": "atomic clock",
+        "discription": "in parallel with 'clock', is a clock device that uses an electronic transition frequency in the microwave, optical, or ultraviolet region of the electromagnetic spectrum of atoms as a frequency standard for its timekeeping."
+    },
+    "object7": {
+        "name": "digital clock",
+        "discription": "in parallel with 'clock', is a type of clock that displays the time digitally, as opposed to an analog clock."
+    },
+    "object8": {
+        "name": "cuckoo clock",
+        "discription": "in parallel with 'clock', is a clock, typically pendulum-regulated, that strikes the hours with a sound like a common cuckoo's call and has an automaton cuckoo bird that moves with each note."
+    }
+}

@@ -1,0 +1,284 @@
+2025-02-03 13:13:50,605 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:14:16,570 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:24:37,361 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:29:14,709 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:29:17,423 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:30:05,167 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:30:05,547 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-02-03 13:33:56,277 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:35:17,515 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:35:39,414 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:35:42,058 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:43:42,200 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:43:44,777 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:45:35,950 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:45:38,714 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:48:33,809 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:48:36,509 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:50:24,787 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:50:27,339 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:56:23,776 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:56:26,307 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 13:57:55,088 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 13:57:57,941 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 14:00:05,889 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 14:00:08,756 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 14:11:35,443 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 14:11:38,139 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2025-02-03 14:39:34,614 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:18:20,995 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:21:55,763 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:24:30,484 - INFO - Final results for math:
+2025-02-03 15:24:30,484 - INFO - PE_MODE = None
+2025-02-03 15:24:30,484 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 15:24:30,484 - INFO - BUDGET = 128
+2025-02-03 15:24:30,484 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 76,
+    "acc": 3.3,
+    "time_use_in_second": 100.19541597366333,
+    "time_use_in_minite": "1:40"
+}
+2025-02-03 15:24:30,484 - INFO - ############ 
+
+
+
+
+2025-02-03 15:24:30,595 - INFO - Evaluation Results:
+2025-02-03 15:24:30,595 - INFO - math: Accuracy = 3.3
+2025-02-03 15:24:30,595 - INFO - avg : Accuracy = 3.3
+2025-02-03 15:24:36,129 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:25:01,227 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:38:38,687 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:39:31,061 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:39:50,261 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:41:06,075 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:41:38,497 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:41:58,991 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:42:06,620 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:43:08,961 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:43:39,331 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:43:52,680 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:44:57,996 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:45:12,116 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:47:56,180 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:48:14,952 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:49:24,067 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 15:55:49,874 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 16:01:17,370 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 16:02:19,690 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 17:25:15,866 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 17:45:44,487 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 17:48:41,363 - INFO - Final results for math:
+2025-02-03 17:48:41,363 - INFO - PE_MODE = None
+2025-02-03 17:48:41,363 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 17:48:41,363 - INFO - BUDGET = 128
+2025-02-03 17:48:41,363 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 76,
+    "acc": 3.3,
+    "time_use_in_second": 115.3130795955658,
+    "time_use_in_minite": "1:55"
+}
+2025-02-03 17:48:41,363 - INFO - ############ 
+
+
+
+
+2025-02-03 17:48:41,478 - INFO - Evaluation Results:
+2025-02-03 17:48:41,479 - INFO - math: Accuracy = 3.3
+2025-02-03 17:48:41,479 - INFO - avg : Accuracy = 3.3
+2025-02-03 17:48:46,705 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 17:53:42,771 - INFO - Final results for math:
+2025-02-03 17:53:42,771 - INFO - PE_MODE = None
+2025-02-03 17:53:42,772 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 17:53:42,772 - INFO - BUDGET = 256
+2025-02-03 17:53:42,772 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 27,
+    "acc": 12.1,
+    "time_use_in_second": 235.88933753967285,
+    "time_use_in_minite": "3:55"
+}
+2025-02-03 17:53:42,772 - INFO - ############ 
+
+
+
+
+2025-02-03 17:53:42,886 - INFO - Evaluation Results:
+2025-02-03 17:53:42,887 - INFO - math: Accuracy = 12.1
+2025-02-03 17:53:42,887 - INFO - avg : Accuracy = 12.1
+2025-02-03 17:53:47,884 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 18:01:50,974 - INFO - Final results for math:
+2025-02-03 18:01:50,974 - INFO - PE_MODE = None
+2025-02-03 18:01:50,974 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 18:01:50,974 - INFO - BUDGET = 512
+2025-02-03 18:01:50,974 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 15,
+    "acc": 45.9,
+    "time_use_in_second": 428.6570086479187,
+    "time_use_in_minite": "7:08"
+}
+2025-02-03 18:01:50,974 - INFO - ############ 
+
+
+
+
+2025-02-03 18:01:51,077 - INFO - Evaluation Results:
+2025-02-03 18:01:51,078 - INFO - math: Accuracy = 45.9
+2025-02-03 18:01:51,078 - INFO - avg : Accuracy = 45.9
+2025-02-03 18:01:55,938 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 18:11:35,120 - INFO - Final results for math:
+2025-02-03 18:11:35,120 - INFO - PE_MODE = None
+2025-02-03 18:11:35,120 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 18:11:35,120 - INFO - BUDGET = 768
+2025-02-03 18:11:35,120 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 7,
+    "acc": 59.6,
+    "time_use_in_second": 527.6798655986786,
+    "time_use_in_minite": "8:47"
+}
+2025-02-03 18:11:35,120 - INFO - ############ 
+
+
+
+
+2025-02-03 18:11:35,232 - INFO - Evaluation Results:
+2025-02-03 18:11:35,233 - INFO - math: Accuracy = 59.6
+2025-02-03 18:11:35,233 - INFO - avg : Accuracy = 59.6
+2025-02-03 18:11:40,001 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 18:22:07,897 - INFO - Final results for math:
+2025-02-03 18:22:07,897 - INFO - PE_MODE = None
+2025-02-03 18:22:07,897 - INFO - Model_path = /data05/user/DATA/QW2_5-3B-instruct
+2025-02-03 18:22:07,897 - INFO - BUDGET = 1024
+2025-02-03 18:22:07,897 - INFO - {
+    "num_samples": 5000,
+    "num_scores": 5000,
+    "timeout_samples": 0,
+    "empty_samples": 3,
+    "acc": 64.7,
+    "time_use_in_second": 576.6418168544769,
+    "time_use_in_minite": "9:36"
+}
+2025-02-03 18:22:07,897 - INFO - ############ 
+
+
+
+
+2025-02-03 18:22:08,007 - INFO - Evaluation Results:
+2025-02-03 18:22:08,008 - INFO - math: Accuracy = 64.7
+2025-02-03 18:22:08,008 - INFO - avg : Accuracy = 64.7
+2025-02-03 18:26:24,708 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 18:33:19,095 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:02:26,496 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:26:48,943 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:26:55,044 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:27:01,267 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:27:07,581 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:27:13,894 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:29:29,644 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:29:35,659 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:29:41,894 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:29:48,066 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:29:54,406 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:37:10,510 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:37:16,785 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:37:22,832 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:37:29,258 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:40:09,362 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:40:15,445 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:43:05,640 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:43:11,872 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:43:17,941 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:48:20,114 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:48:26,177 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:48:32,158 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:52:25,755 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:52:31,966 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:52:38,087 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:52:44,278 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:53:39,429 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:53:45,535 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:53:51,657 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:53:58,153 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:54:04,395 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:55:37,102 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:55:43,840 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:55:50,336 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:58:54,068 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:59:00,350 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 19:59:06,435 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:09:30,060 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:09:36,390 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:09:42,406 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:19:19,387 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:19:25,653 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:19:31,652 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:19:37,852 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:19:44,207 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:38:21,944 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:43:15,019 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:43:21,425 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:44:09,723 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:44:17,866 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:44:24,399 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:47:03,553 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:47:10,092 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:47:16,577 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:47:23,331 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:47:30,191 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:48:45,148 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:48:52,218 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:52:00,132 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:52:06,955 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:52:13,120 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:52:19,211 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:52:25,339 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:53:25,114 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:53:31,257 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:55:21,179 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:55:27,180 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:57:17,701 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:57:27,682 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 20:57:37,672 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:01:27,438 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:01:37,559 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:50:25,476 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:50:32,343 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:51:28,292 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:51:37,161 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:51:45,988 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:51:54,786 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:52:03,801 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:53:27,429 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:58:53,076 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:58:59,613 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:59:06,214 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:59:12,734 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 21:59:19,230 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:05:36,978 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:05:43,493 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:06:39,493 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:07:22,894 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:08:25,277 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 22:09:22,978 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:02:44,788 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:02:50,803 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:02:56,722 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:03:02,895 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:03:09,008 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:03:19,116 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:03:28,882 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log
+2025-02-03 23:15:37,778 - INFO - Logging configured. Log file: /data05/user/Qwen2.5-Math/eval_result/evaluation.log

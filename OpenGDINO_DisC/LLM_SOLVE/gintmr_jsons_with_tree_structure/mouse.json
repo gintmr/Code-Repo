@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "mouse",
+        "discription": "A small rodent with a pointed snout, furry body, and a long, often hairless tail."
+    },
+    "object1": {
+        "name": "keyboard",
+        "discription": "in parallel with 'mouse', is a computer input device with keys used for typing and controlling the computer."
+    },
+    "object2": {
+        "name": "monitor",
+        "discription": "in parallel with 'mouse', is a display device that shows visual output from a computer."
+    },
+    "object3": {
+        "name": "printer",
+        "discription": "in parallel with 'mouse', is a device that produces paper copies of electronic documents."
+    },
+    "object4": {
+        "name": "scanner",
+        "discription": "in parallel with 'mouse', is a device that captures images from photographic prints, posters, and similar sources to a digital image."
+    },
+    "object5": {
+        "name": "headphones",
+        "discription": "in parallel with 'mouse', is a device that covers the ears to listen to audio privately."
+    },
+    "object6": {
+        "name": "webcam",
+        "discription": "in parallel with 'mouse', is a video capture device connected to a computer or computer network."
+    },
+    "object7": {
+        "name": "microphone",
+        "discription": "in parallel with 'mouse', is a device that captures and converts sound into an electrical signal."
+    },
+    "object8": {
+        "name": "speakers",
+        "discription": "in parallel with 'mouse', is a device that converts electrical audio signals into sound."
+    }
+}

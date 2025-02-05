@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "wine glass",
+        "discription": "a type of glass used for serving wine"
+    },
+    "object1": {
+        "name": "beer mug",
+        "discription": "in parallel with 'wine glass', is a large, sturdy glass used for serving beer"
+    },
+    "object2": {
+        "name": "coffee cup",
+        "discription": "in parallel with 'wine glass', is a small, handle-equipped vessel used for drinking coffee"
+    },
+    "object3": {
+        "name": "water bottle",
+        "discription": "in parallel with 'wine glass', is a portable container used for carrying and drinking water"
+    },
+    "object4": {
+        "name": "soup bowl",
+        "discription": "in parallel with 'wine glass', is a deep, wide dish used for serving soup"
+    },
+    "object5": {
+        "name": "teacup",
+        "discription": "in parallel with 'wine glass', is a small, handle-equipped cup used for drinking tea"
+    },
+    "object6": {
+        "name": "shot glass",
+        "discription": "in parallel with 'wine glass', is a small glass used for serving shots of liquor"
+    },
+    "object7": {
+        "name": "juice pitcher",
+        "discription": "in parallel with 'wine glass', is a large container with a handle and spout used for serving juice"
+    },
+    "object8": {
+        "name": "martini glass",
+        "discription": "in parallel with 'wine glass', is a stemmed glass with a conical or triangular bowl used for serving martinis"
+    }
+}

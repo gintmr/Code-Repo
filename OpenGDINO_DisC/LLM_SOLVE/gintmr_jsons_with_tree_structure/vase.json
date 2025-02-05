@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "vase",
+        "discription": "A decorative container, typically made of glass, ceramic, or metal, used for holding flowers or as a standalone piece of art."
+    },
+    "object1": {
+        "name": "urn",
+        "discription": "in parallel with 'vase', is a large, vase-like container, often used for holding the ashes of a deceased person in funerary practices."
+    },
+    "object2": {
+        "name": "vial",
+        "discription": "in parallel with 'vase', is a small, typically cylindrical container, often made of glass, used for holding liquid medicines or chemicals."
+    },
+    "object3": {
+        "name": "chalice",
+        "discription": "in parallel with 'vase', is a goblet or cup with a foot or stem, historically used in religious ceremonies, particularly for the consumption of wine."
+    },
+    "object4": {
+        "name": "jar",
+        "discription": "in parallel with 'vase', is a wide-mouthed container, typically made of glass or pottery, used for storing food, preserves, or other items."
+    },
+    "object5": {
+        "name": "bottle",
+        "discription": "in parallel with 'vase', is a narrow-necked container, typically made of glass or plastic, used for holding liquids such as water, wine, or soda."
+    },
+    "object6": {
+        "name": "crock",
+        "discription": "in parallel with 'vase', is a small, deep, earthenware container, often used for storing food or as a cooking vessel."
+    },
+    "object7": {
+        "name": "pitcher",
+        "discription": "in parallel with 'vase', is a large container with a handle and a spout, used for serving and pouring liquids, such as water or juice."
+    },
+    "object8": {
+        "name": "flask",
+        "discription": "in parallel with 'vase', is a small, narrow-necked container, typically made of metal or glass, used for carrying and serving drinks, often alcohol."
+    }
+}

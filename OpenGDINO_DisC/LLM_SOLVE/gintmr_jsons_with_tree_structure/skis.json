@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "skis",
+        "discription": "a pair of long, narrow strips of hard material attached to boots, used for sliding over snow"
+    },
+    "object1": {
+        "name": "surfboard",
+        "discription": "in parallel with 'skis', is a long, flat board used to ride on the surface of the water while standing up"
+    },
+    "object2": {
+        "name": "snowboard",
+        "discription": "in parallel with 'skis', is a single, wide board that is ridden in a surfing position, used for sliding down snow-covered slopes"
+    },
+    "object3": {
+        "name": "rollerblades",
+        "discription": "in parallel with 'skis', are a type of inline skates with a boot and wheels, used for gliding on smooth surfaces"
+    },
+    "object4": {
+        "name": "skateboard",
+        "discription": "in parallel with 'skis', is a narrow, short platform with wheels, used for performing tricks and riding on smooth surfaces"
+    },
+    "object5": {
+        "name": "bicycle",
+        "discription": "in parallel with 'skis', is a two-wheeled vehicle powered by pedaling, used for transportation and recreation"
+    },
+    "object6": {
+        "name": "scooter",
+        "discription": "in parallel with 'skis', is a small, motorized or kick-powered vehicle with two wheels, used for short-distance travel"
+    },
+    "object7": {
+        "name": "sled",
+        "discription": "in parallel with 'skis', is a flat, lightweight vehicle without wheels, used for sliding over snow or ice"
+    },
+    "object8": {
+        "name": "ice skates",
+        "discription": "in parallel with 'skis', are shoes with metal blades attached, used for gliding over ice surfaces"
+    }
+}

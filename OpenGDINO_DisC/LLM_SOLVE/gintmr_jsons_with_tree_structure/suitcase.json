@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "suitcase",
+        "discription": "a piece of luggage designed to carry clothes and personal items"
+    },
+    "object1": {
+        "name": "backpack",
+        "discription": "in parallel with 'suitcase', is a bag with straps to be worn on the back, typically used for carrying books and other items"
+    },
+    "object2": {
+        "name": "briefcase",
+        "discription": "in parallel with 'suitcase', is a flat, rectangular case used for carrying documents and business materials"
+    },
+    "object3": {
+        "name": "duffel bag",
+        "discription": "in parallel with 'suitcase', is a large cylindrical bag made of thick fabric, often used for travel or sports equipment"
+    },
+    "object4": {
+        "name": "tote bag",
+        "discription": "in parallel with 'suitcase', is a large, open bag with parallel handles that emerge from the sides of its pouch"
+    },
+    "object5": {
+        "name": "garment bag",
+        "discription": "in parallel with 'suitcase', is a long, narrow bag designed to hold clothing, often used for formal wear"
+    },
+    "object6": {
+        "name": "carry-on",
+        "discription": "in parallel with 'suitcase', is a small piece of luggage that meets airline regulations for being carried on the plane"
+    },
+    "object7": {
+        "name": "trunk",
+        "discription": "in parallel with 'suitcase', is a large, sturdy box used for storage or transportation of goods, often found in vehicles or homes"
+    },
+    "object8": {
+        "name": "satchel",
+        "discription": "in parallel with 'suitcase', is a bag with a strap, typically worn over one shoulder, often used by students or professionals"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "debug_eval.py",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "debug_eval.py",  // 你的 Python 脚本路径
+        "args": [
+          "qwen25-math-cot",  // 第一个参数，提示类型
+          "/data05/user/DATA/QW2_5-3B-instruct"  // 第二个参数，模型路径
+        ],
+        "env": {
+          "CUDA_VISIBLE_DEVICES": "6"  // 设置可见的 GPU
+        },
+        "console": "integratedTerminal",  // 输出到 VSCode 集成终端
+        "justMyCode": false
+      }
+    ]
+  }
+  

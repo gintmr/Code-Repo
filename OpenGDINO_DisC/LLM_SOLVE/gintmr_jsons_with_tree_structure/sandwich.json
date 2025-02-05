@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "sandwich",
+        "discription": "a food item consisting of one or more types of food placed on or between slices of bread"
+    },
+    "object1": {
+        "name": "burger",
+        "discription": "in parallel with 'sandwich', is a food item consisting of a patty of ground meat, typically beef, placed inside a sliced bun"
+    },
+    "object2": {
+        "name": "taco",
+        "discription": "in parallel with 'sandwich', is a traditional Mexican dish consisting of a folded or rolled tortilla filled with various ingredients"
+    },
+    "object3": {
+        "name": "pizza",
+        "discription": "in parallel with 'sandwich', is a dish of Italian origin, consisting of a flat round base of dough baked with a topping of tomato sauce and cheese"
+    },
+    "object4": {
+        "name": "wrap",
+        "discription": "in parallel with 'sandwich', is a food item consisting of a filling wrapped in a flatbread, such as a tortilla"
+    },
+    "object5": {
+        "name": "hot dog",
+        "discription": "in parallel with 'sandwich', is a food item consisting of a grilled or steamed sausage served in the slit of a partially sliced bun"
+    },
+    "object6": {
+        "name": "burrito",
+        "discription": "in parallel with 'sandwich', is a dish in Mexican and Tex-Mex cuisine that consists of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients"
+    },
+    "object7": {
+        "name": "panini",
+        "discription": "in parallel with 'sandwich', is a type of sandwich that is made from various kinds of meats, cheeses, or vegetables grilled between two pieces of Italian bread"
+    },
+    "object8": {
+        "name": "gyro",
+        "discription": "in parallel with 'sandwich', is a Greek dish made from meat cooked on a vertical rotisserie, wrapped in a flatbread such as pita, and typically garnished with vegetables and sauces"
+    }
+}

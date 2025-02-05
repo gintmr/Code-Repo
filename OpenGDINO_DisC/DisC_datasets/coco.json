@@ -1,0 +1,16 @@
+{
+    "train": [
+      {
+        "root": "/data2/wuxinrui/Datasets/COCO/images/train2017/",
+        "anno": "/data2/wuxinrui/Datasets/COCO/OVDG-Format/ovdg_form.jsonl",
+        "label_map": "/data2/wuxinrui/OpenGDINO_DisC/information/label_map.json",
+        "dataset_mode": "odvg"
+      }],
+    "val": [
+      {
+        "root": "/data2/wuxinrui/Datasets/COCO/images/val2017",
+        "anno": "/data2/wuxinrui/Datasets/COCO/annotations/instances_val2017.json",
+        "label_map": null,
+        "dataset_mode": "coco"
+      }]
+  }

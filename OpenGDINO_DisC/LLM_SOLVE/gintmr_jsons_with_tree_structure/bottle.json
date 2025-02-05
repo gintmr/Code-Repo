@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bottle",
+        "discription": "A container, typically made of glass or plastic and with a narrow neck, used for storing drinks or other liquids."
+    },
+    "object1": {
+        "name": "jug",
+        "discription": "in parallel with 'bottle', is a large, often ceramic, container with a handle and a spout used for holding and pouring liquids."
+    },
+    "object2": {
+        "name": "flask",
+        "discription": "in parallel with 'bottle', is a narrow-necked container, often made of metal, used for carrying and preserving liquids, especially in scientific settings."
+    },
+    "object3": {
+        "name": "can",
+        "discription": "in parallel with 'bottle', is a cylindrical container made of metal, used for storing food, beverages, and other products, often sealed with a lid."
+    },
+    "object4": {
+        "name": "jar",
+        "discription": "in parallel with 'bottle', is a wide-mouthed container, typically made of glass or plastic, used for storing food, preserves, or other items."
+    },
+    "object5": {
+        "name": "vial",
+        "discription": "in parallel with 'bottle', is a small, often glass, container used for holding samples of liquids, especially in medical or scientific contexts."
+    },
+    "object6": {
+        "name": "keg",
+        "discription": "in parallel with 'bottle', is a small barrel, typically made of metal, used for storing and serving beer or other beverages."
+    },
+    "object7": {
+        "name": "pitcher",
+        "discription": "in parallel with 'bottle', is a large container with a handle and a lip, used for serving and pouring liquids, often used for beverages like water or lemonade."
+    },
+    "object8": {
+        "name": "urn",
+        "discription": "in parallel with 'bottle', is a large, often decorative, container used for holding and displaying the ashes of the deceased, or for ceremonial purposes."
+    }
+}

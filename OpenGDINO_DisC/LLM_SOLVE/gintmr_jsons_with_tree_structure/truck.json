@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "truck",
+        "discription": "a large motor vehicle for transporting goods"
+    },
+    "object1": {
+        "name": "bicycle",
+        "discription": "in parallel with 'truck', is a two-wheeled, human-powered vehicle"
+    },
+    "object2": {
+        "name": "helicopter",
+        "discription": "in parallel with 'truck', is a rotorcraft capable of vertical takeoff and landing"
+    },
+    "object3": {
+        "name": "submarine",
+        "discription": "in parallel with 'truck', is a watercraft capable of independent operation underwater"
+    },
+    "object4": {
+        "name": "train",
+        "discription": "in parallel with 'truck', is a series of connected vehicles that run on a track and transport passengers or freight"
+    },
+    "object5": {
+        "name": "motorcycle",
+        "discription": "in parallel with 'truck', is a two-wheeled motor vehicle"
+    },
+    "object6": {
+        "name": "airplane",
+        "discription": "in parallel with 'truck', is a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces"
+    },
+    "object7": {
+        "name": "scooter",
+        "discription": "in parallel with 'truck', is a small, motorized or kick-powered vehicle with a platform for the rider's feet"
+    },
+    "object8": {
+        "name": "yacht",
+        "discription": "in parallel with 'truck', is a recreational boat or ship"
+    }
+}

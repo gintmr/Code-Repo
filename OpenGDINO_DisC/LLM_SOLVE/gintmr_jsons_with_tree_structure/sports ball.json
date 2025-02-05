@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "sports ball",
+        "discription": "A ball used in various sports activities."
+    },
+    "object1": {
+        "name": "beach ball",
+        "discription": "in parallel with 'sports ball', is a large, inflatable ball typically used for recreational play at beaches or pools."
+    },
+    "object2": {
+        "name": "medicine ball",
+        "discription": "in parallel with 'sports ball', is a weighted ball used for strength training and rehabilitation exercises."
+    },
+    "object3": {
+        "name": "stress ball",
+        "discription": "in parallel with 'sports ball', is a small, soft ball used for stress relief and hand exercise."
+    },
+    "object4": {
+        "name": "water polo ball",
+        "discription": "in parallel with 'sports ball', is a ball specifically designed for the sport of water polo, featuring a grippy surface and buoyancy."
+    },
+    "object5": {
+        "name": "basketball",
+        "discription": "in parallel with 'sports ball', is a ball used in the sport of basketball, featuring a distinctive orange color and black seams."
+    },
+    "object6": {
+        "name": "soccer ball",
+        "discription": "in parallel with 'sports ball', is a ball used in the sport of soccer, typically black and white with a pattern of pentagons and hexagons."
+    },
+    "object7": {
+        "name": "volleyball",
+        "discription": "in parallel with 'sports ball', is a ball used in the sport of volleyball, featuring a softer construction and a more rounded shape."
+    },
+    "object8": {
+        "name": "rugby ball",
+        "discription": "in parallel with 'sports ball', is a ball used in the sport of rugby, characterized by its elongated shape and pointed ends."
+    }
+}

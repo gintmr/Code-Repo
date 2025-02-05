@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "scissors",
+        "discription": "a tool with two blades whose cutting edges slide against each other to cut materials"
+    },
+    "object1": {
+        "name": "pliers",
+        "discription": "in parallel with 'scissors', is a hand tool with two hinged arms and flat, serrated jaws for gripping and holding objects"
+    },
+    "object2": {
+        "name": "tweezers",
+        "discription": "in parallel with 'scissors', is a small tool with two thin, pointed arms that are joined at one end for picking up small objects"
+    },
+    "object3": {
+        "name": "knife",
+        "discription": "in parallel with 'scissors', is a sharp-edged tool used for cutting and slicing"
+    },
+    "object4": {
+        "name": "hammer",
+        "discription": "in parallel with 'scissors', is a tool with a heavy metal head attached to a handle, used for pounding and driving nails"
+    },
+    "object5": {
+        "name": "saw",
+        "discription": "in parallel with 'scissors', is a tool with a toothed blade used for cutting through materials"
+    },
+    "object6": {
+        "name": "wrench",
+        "discription": "in parallel with 'scissors', is a tool used for gripping and turning nuts, bolts, and pipes"
+    },
+    "object7": {
+        "name": "drill",
+        "discription": "in parallel with 'scissors', is a tool with a rotating cutting bit used for making holes in various materials"
+    },
+    "object8": {
+        "name": "screwdriver",
+        "discription": "in parallel with 'scissors', is a tool with a flattened or cross-shaped tip that fits into the head of a screw, used for turning it"
+    }
+}

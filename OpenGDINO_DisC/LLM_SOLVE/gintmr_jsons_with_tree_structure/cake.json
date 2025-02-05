@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "cake",
+        "discription": "a baked dessert made from flour, sugar, and other ingredients, often topped with frosting"
+    },
+    "object1": {
+        "name": "pie",
+        "discription": "in parallel with 'cake', is a baked dish made of a pastry crust filled with various ingredients such as fruit, meat, or custard"
+    },
+    "object2": {
+        "name": "cookie",
+        "discription": "in parallel with 'cake', is a small, sweet baked treat made from dough that often contains ingredients like chocolate chips, nuts, or raisins"
+    },
+    "object3": {
+        "name": "muffin",
+        "discription": "in parallel with 'cake', is a small, baked, cake-like item that can be sweet or savory, often with a crumbly texture"
+    },
+    "object4": {
+        "name": "bread",
+        "discription": "in parallel with 'cake', is a staple food made from flour, water, and yeast, often used for sandwiches or as a side dish"
+    },
+    "object5": {
+        "name": "brownie",
+        "discription": "in parallel with 'cake', is a dense, fudgy, chocolate baked good, often square-shaped and served as a dessert"
+    },
+    "object6": {
+        "name": "cupcake",
+        "discription": "in parallel with 'cake', is a small, individual-sized cake, often topped with frosting and decorative elements"
+    },
+    "object7": {
+        "name": "donut",
+        "discription": "in parallel with 'cake', is a fried or baked dough confection, typically ring-shaped, and often glazed or filled with various toppings"
+    },
+    "object8": {
+        "name": "pastry",
+        "discription": "in parallel with 'cake', is a dough of flour, water, and shortening that may be savory or sweet, used in a variety of baked goods like tarts and turnovers"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "skateboard",
+        "discription": "a small board with wheels, used for riding and performing tricks"
+    },
+    "object1": {
+        "name": "surfboard",
+        "discription": "in parallel with 'skateboard', is a long, narrow board used for riding on waves in the ocean"
+    },
+    "object2": {
+        "name": "snowboard",
+        "discription": "in parallel with 'skateboard', is a board resembling a short, broad ski, used for descending snow-covered slopes"
+    },
+    "object3": {
+        "name": "scooter",
+        "discription": "in parallel with 'skateboard', is a small, wheeled vehicle that can be powered by pedals or an electric motor"
+    },
+    "object4": {
+        "name": "roller skates",
+        "discription": "in parallel with 'skateboard', are shoes with wheels, used for gliding on smooth surfaces"
+    },
+    "object5": {
+        "name": "bicycle",
+        "discription": "in parallel with 'skateboard', is a two-wheeled vehicle powered by pedaling"
+    },
+    "object6": {
+        "name": "hoverboard",
+        "discription": "in parallel with 'skateboard', is a self-balancing, battery-powered scooter"
+    },
+    "object7": {
+        "name": "longboard",
+        "discription": "in parallel with 'skateboard', is a larger version of a skateboard, often used for cruising and downhill riding"
+    },
+    "object8": {
+        "name": "pogo stick",
+        "discription": "in parallel with 'skateboard', is a device used for bouncing, consisting of a pole with a spring and footpads"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "giraffe",
+        "discription": "a tall, long-necked African mammal known for its distinctive spotted pattern"
+    },
+    "object1": {
+        "name": "elephant",
+        "discription": "in parallel with 'giraffe', is a large, herbivorous mammal native to Africa and Asia, known for its long trunk and tusks"
+    },
+    "object2": {
+        "name": "zebra",
+        "discription": "in parallel with 'giraffe', is a wild horse species native to Africa, characterized by its black and white striped coat"
+    },
+    "object3": {
+        "name": "rhinoceros",
+        "discription": "in parallel with 'giraffe', is a large, herbivorous mammal with one or two horns on its snout, native to Africa and Asia"
+    },
+    "object4": {
+        "name": "hippopotamus",
+        "discription": "in parallel with 'giraffe', is a large, semi-aquatic mammal native to Africa, known for its stocky body and short legs"
+    },
+    "object5": {
+        "name": "kangaroo",
+        "discription": "in parallel with 'giraffe', is a marsupial from Australia known for its powerful hind legs, large feet, and long tail"
+    },
+    "object6": {
+        "name": "ostrich",
+        "discription": "in parallel with 'giraffe', is a large, flightless bird native to Africa, known for its long neck and legs"
+    },
+    "object7": {
+        "name": "crocodile",
+        "discription": "in parallel with 'giraffe', is a large, semi-aquatic reptile found in Africa, known for its long jaws and powerful tail"
+    },
+    "object8": {
+        "name": "chimpanzee",
+        "discription": "in parallel with 'giraffe', is a species of great ape native to Africa, known for its intelligence and close genetic relationship to humans"
+    }
+}

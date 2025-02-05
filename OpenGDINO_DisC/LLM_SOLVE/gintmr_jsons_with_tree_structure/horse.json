@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "horse",
+        "discription": "a large, strong animal with four legs, commonly used for riding or pulling vehicles"
+    },
+    "object1": {
+        "name": "zebra",
+        "discription": "in parallel with 'horse', is a large, wild animal with black and white stripes, native to Africa"
+    },
+    "object2": {
+        "name": "donkey",
+        "discription": "in parallel with 'horse', is a smaller, sturdy animal often used as a pack or work animal"
+    },
+    "object3": {
+        "name": "unicorn",
+        "discription": "in parallel with 'horse', is a mythical creature with a single, spiraling horn on its forehead"
+    },
+    "object4": {
+        "name": "camel",
+        "discription": "in parallel with 'horse', is a large, humped animal adapted to life in desert environments"
+    },
+    "object5": {
+        "name": "rhinoceros",
+        "discription": "in parallel with 'horse', is a large, thick-skinned animal with one or two horns on its nose"
+    },
+    "object6": {
+        "name": "elephant",
+        "discription": "in parallel with 'horse', is a massive, long-nosed animal with large ears and tusks"
+    },
+    "object7": {
+        "name": "giraffe",
+        "discription": "in parallel with 'horse', is a tall, long-necked animal with distinctive spotted patterns"
+    },
+    "object8": {
+        "name": "kangaroo",
+        "discription": "in parallel with 'horse', is a large, hopping marsupial native to Australia"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "sofa",
+        "discription": "a piece of furniture for seating multiple people, typically found in living rooms or lounges"
+    },
+    "object1": {
+        "name": "chair",
+        "discription": "in parallel with 'sofa', is a piece of furniture for seating one person, typically with a back and four legs"
+    },
+    "object2": {
+        "name": "table",
+        "discription": "in parallel with 'sofa', is a piece of furniture with a flat top and one or more legs, used for serving food, writing, or other purposes"
+    },
+    "object3": {
+        "name": "bed",
+        "discription": "in parallel with 'sofa', is a piece of furniture for sleeping or resting, typically consisting of a flat surface and a headboard"
+    },
+    "object4": {
+        "name": "bookshelf",
+        "discription": "in parallel with 'sofa', is a piece of furniture with shelves for holding books, often found in libraries or homes"
+    },
+    "object5": {
+        "name": "desk",
+        "discription": "in parallel with 'sofa', is a piece of furniture with a flat surface for writing, reading, or using a computer, often with drawers for storage"
+    },
+    "object6": {
+        "name": "ottoman",
+        "discription": "in parallel with 'sofa', is a piece of furniture that can be used as a footstool or a small seat, often without a back or arms"
+    },
+    "object7": {
+        "name": "cabinet",
+        "discription": "in parallel with 'sofa', is a piece of furniture with doors and shelves for storage, often used in kitchens or living rooms"
+    },
+    "object8": {
+        "name": "bench",
+        "discription": "in parallel with 'sofa', is a long seat for two or more people, typically found in parks or gardens"
+    }
+}

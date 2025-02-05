@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "apple",
+        "discription": "a common fruit, typically round, red or green in color, and typically eaten raw"
+    },
+    "object1": {
+        "name": "banana",
+        "discription": "in parallel with 'apple', is a long, curved fruit with a yellow skin and soft, sweet flesh"
+    },
+    "object2": {
+        "name": "orange",
+        "discription": "in parallel with 'apple', is a round citrus fruit with a thick, orange skin and juicy segments"
+    },
+    "object3": {
+        "name": "grape",
+        "discription": "in parallel with 'apple', is a small, round fruit that grows in clusters, with a thin skin and juicy flesh"
+    },
+    "object4": {
+        "name": "strawberry",
+        "discription": "in parallel with 'apple', is a small, red fruit with a sweet taste and seeds on the outside"
+    },
+    "object5": {
+        "name": "pineapple",
+        "discription": "in parallel with 'apple', is a large, tropical fruit with a tough, spiky skin and sweet, juicy flesh"
+    },
+    "object6": {
+        "name": "mango",
+        "discription": "in parallel with 'apple', is a tropical fruit with a sweet, juicy flesh and a large, flat seed in the center"
+    },
+    "object7": {
+        "name": "kiwi",
+        "discription": "in parallel with 'apple', is a small, brown fruit with a fuzzy skin and bright green flesh with small black seeds"
+    },
+    "object8": {
+        "name": "pear",
+        "discription": "in parallel with 'apple', is a fruit similar in shape to an apple but typically with a more elongated, bell-shaped form and a softer texture"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "frisbee",
+        "discription": "A flying disc used in various sports and games."
+    },
+    "object1": {
+        "name": "boomerang",
+        "discription": "in parallel with 'frisbee', is a curved throwing stick that returns to the thrower."
+    },
+    "object2": {
+        "name": "kite",
+        "discription": "in parallel with 'frisbee', is a tethered aircraft that is flown in the wind at the end of a string."
+    },
+    "object3": {
+        "name": "ball",
+        "discription": "in parallel with 'frisbee', is a round object used in various sports and games."
+    },
+    "object4": {
+        "name": "yo-yo",
+        "discription": "in parallel with 'frisbee', is a toy consisting of an axle connected to two disks, and a string looped around the axle."
+    },
+    "object5": {
+        "name": "hula hoop",
+        "discription": "in parallel with 'frisbee', is a ring that is twirled around the waist, limbs, or neck."
+    },
+    "object6": {
+        "name": "juggling clubs",
+        "discription": "in parallel with 'frisbee', are baton-like objects used in juggling routines."
+    },
+    "object7": {
+        "name": "pogo stick",
+        "discription": "in parallel with 'frisbee', is a device for jumping up and down, consisting of a pole with a spring or elastic band connecting a footpad to the top."
+    },
+    "object8": {
+        "name": "skateboard",
+        "discription": "in parallel with 'frisbee', is a narrow, oblong board with wheels, used for riding and performing stunts."
+    }
+}

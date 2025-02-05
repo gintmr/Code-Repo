@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "tie",
+        "discription": "a piece of clothing worn around the neck"
+    },
+    "object1": {
+        "name": "scarf",
+        "discription": "in parallel with 'tie', is a piece of fabric worn around the neck or head for warmth, fashion, or religious reasons"
+    },
+    "object2": {
+        "name": "belt",
+        "discription": "in parallel with 'tie', is a flexible band or strap, typically made of leather or heavy cloth, and worn around the waist to hold up clothing"
+    },
+    "object3": {
+        "name": "bracelet",
+        "discription": "in parallel with 'tie', is an ornament, often made of metal, leather, or beads, worn around the wrist"
+    },
+    "object4": {
+        "name": "necklace",
+        "discription": "in parallel with 'tie', is an article of jewellery that is worn around the neck, often made of precious metals and stones"
+    },
+    "object5": {
+        "name": "cravat",
+        "discription": "in parallel with 'tie', is a decorative cloth worn around the neck, especially an older style of necktie"
+    },
+    "object6": {
+        "name": "bow",
+        "discription": "in parallel with 'tie', is a decorative knot tied with a ribbon or string, often used in gift wrapping or hair accessories"
+    },
+    "object7": {
+        "name": "collar",
+        "discription": "in parallel with 'tie', is the part of a shirt or blouse that fastens around or frames the neck, typically made of a separate piece of fabric"
+    },
+    "object8": {
+        "name": "choker",
+        "discription": "in parallel with 'tie', is a close-fitting necklace, often made of beads, lace, or leather, worn high on the neck"
+    }
+}

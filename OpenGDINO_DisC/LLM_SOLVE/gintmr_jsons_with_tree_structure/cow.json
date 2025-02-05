@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "cow",
+        "discription": "a domesticated, hoofed mammal used for milk and meat production"
+    },
+    "object1": {
+        "name": "bull",
+        "discription": "in parallel with 'cow', is a male bovine animal, often used for breeding and meat production"
+    },
+    "object2": {
+        "name": "calf",
+        "discription": "in parallel with 'cow', is a young bovine, typically a baby cow, which grows into a mature cow or bull"
+    },
+    "object3": {
+        "name": "sheep",
+        "discription": "in parallel with 'cow', is a domesticated, wool-producing mammal, often raised for its meat and wool"
+    },
+    "object4": {
+        "name": "goat",
+        "discription": "in parallel with 'cow', is a domesticated mammal, often raised for its milk, meat, and hide"
+    },
+    "object5": {
+        "name": "pig",
+        "discription": "in parallel with 'cow', is a domesticated mammal, raised primarily for its meat, known as pork"
+    },
+    "object6": {
+        "name": "horse",
+        "discription": "in parallel with 'cow', is a large domesticated mammal, used for riding, racing, and farm work"
+    },
+    "object7": {
+        "name": "donkey",
+        "discription": "in parallel with 'cow', is a domesticated mammal, similar to a horse but smaller, often used as a pack animal"
+    },
+    "object8": {
+        "name": "camel",
+        "discription": "in parallel with 'cow', is a large, domesticated mammal, known for its ability to thrive in desert conditions and used for transportation and milk production"
+    }
+}

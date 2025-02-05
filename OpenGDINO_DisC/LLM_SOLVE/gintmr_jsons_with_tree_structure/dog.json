@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "dog",
+        "discription": "a common domesticated animal known for its loyalty and companionship"
+    },
+    "object1": {
+        "name": "wolf",
+        "discription": "in parallel with 'dog', is a wild canine species, known for its pack behavior and hunting skills"
+    },
+    "object2": {
+        "name": "fox",
+        "discription": "in parallel with 'dog', is a small, cunning mammal with a bushy tail, known for its intelligence and adaptability"
+    },
+    "object3": {
+        "name": "coyote",
+        "discription": "in parallel with 'dog', is a smaller relative of the wolf, known for its ability to survive in various environments"
+    },
+    "object4": {
+        "name": "hyena",
+        "discription": "in parallel with 'dog', is a scavenging mammal with a distinctive laugh, known for its strong jaws and social behavior"
+    },
+    "object5": {
+        "name": "jackal",
+        "discription": "in parallel with 'dog', is a medium-sized wild canine, known for its opportunistic feeding habits and adaptability"
+    },
+    "object6": {
+        "name": "dingo",
+        "discription": "in parallel with 'dog', is an Australian wild dog, known for its primitive behavior and ability to survive in harsh environments"
+    },
+    "object7": {
+        "name": "raccoon",
+        "discription": "in parallel with 'dog', is a medium-sized mammal with a distinctive mask-like face, known for its intelligence and dexterity"
+    },
+    "object8": {
+        "name": "badger",
+        "discription": "in parallel with 'dog', is a burrowing mammal with strong claws, known for its defensive nature and nocturnal habits"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "traffic light",
+        "discription": "a device used to control the flow of traffic at intersections"
+    },
+    "object1": {
+        "name": "stop sign",
+        "discription": "in parallel with 'traffic light', is a sign used to indicate that vehicles must come to a complete stop"
+    },
+    "object2": {
+        "name": "speed limit sign",
+        "discription": "in parallel with 'traffic light', is a sign used to indicate the maximum speed allowed on a road"
+    },
+    "object3": {
+        "name": "yield sign",
+        "discription": "in parallel with 'traffic light', is a sign used to indicate that vehicles must yield the right-of-way to other traffic"
+    },
+    "object4": {
+        "name": "crosswalk",
+        "discription": "in parallel with 'traffic light', is a designated area for pedestrians to cross a road"
+    },
+    "object5": {
+        "name": "street lamp",
+        "discription": "in parallel with 'traffic light', is a lamp used to illuminate streets at night"
+    },
+    "object6": {
+        "name": "parking meter",
+        "discription": "in parallel with 'traffic light', is a device used to collect payment for parking in a designated area"
+    },
+    "object7": {
+        "name": "road barrier",
+        "discription": "in parallel with 'traffic light', is a barrier used to block or control the flow of traffic"
+    },
+    "object8": {
+        "name": "traffic cone",
+        "discription": "in parallel with 'traffic light', is a cone used to redirect or warn traffic"
+    }
+}

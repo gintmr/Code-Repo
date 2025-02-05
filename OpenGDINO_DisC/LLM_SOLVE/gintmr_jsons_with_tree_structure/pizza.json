@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "pizza",
+        "discription": "a popular dish consisting of a flat, round base of dough baked with a topping of tomato sauce and cheese, typically with added meat, vegetables, or other ingredients"
+    },
+    "object1": {
+        "name": "sandwich",
+        "discription": "in parallel with 'pizza', is a food item typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, with the bread acting as a wrapper or container"
+    },
+    "object2": {
+        "name": "hamburger",
+        "discription": "in parallel with 'pizza', is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun"
+    },
+    "object3": {
+        "name": "taco",
+        "discription": "in parallel with 'pizza', is a traditional Mexican dish consisting of a corn or wheat tortilla folded or rolled around a filling, which may include beef, pork, chicken, seafood, beans, vegetables, and cheese"
+    },
+    "object4": {
+        "name": "sushi",
+        "discription": "in parallel with 'pizza', is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, vegetables, and occasionally tropical fruits"
+    },
+    "object5": {
+        "name": "lasagna",
+        "discription": "in parallel with 'pizza', is a wide, flat sheet of pasta, and also refers to an Italian dish made of stacked layers of lasagna alternating with fillings such as rag\u00f9, vegetables, cheeses, and seasonings and spices"
+    },
+    "object6": {
+        "name": "burrito",
+        "discription": "in parallel with 'pizza', is a dish in Mexican and Tex-Mex cuisine that consists of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients, typically including beans, rice, and meat"
+    },
+    "object7": {
+        "name": "calzone",
+        "discription": "in parallel with 'pizza', is an Italian oven-baked folded pizza, often described as a turnover, made with leavened dough, typically filled with cheese, meat, and tomato sauce"
+    },
+    "object8": {
+        "name": "quiche",
+        "discription": "in parallel with 'pizza', is a French tart consisting of pastry crust filled with savoury custard and pieces of cheese, meat, seafood or vegetables"
+    }
+}

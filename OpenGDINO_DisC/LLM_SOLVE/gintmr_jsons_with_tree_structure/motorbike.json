@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "motorbike",
+        "discription": "a two-wheeled motor vehicle"
+    },
+    "object1": {
+        "name": "scooter",
+        "discription": "in parallel with 'motorbike', is a two-wheeled motor vehicle with a step-through frame"
+    },
+    "object2": {
+        "name": "bicycle",
+        "discription": "in parallel with 'motorbike', is a two-wheeled human-powered vehicle"
+    },
+    "object3": {
+        "name": "car",
+        "discription": "in parallel with 'motorbike', is a four-wheeled motor vehicle"
+    },
+    "object4": {
+        "name": "truck",
+        "discription": "in parallel with 'motorbike', is a large motor vehicle designed to carry heavy loads"
+    },
+    "object5": {
+        "name": "motorboat",
+        "discription": "in parallel with 'motorbike', is a small motor-powered boat"
+    },
+    "object6": {
+        "name": "helicopter",
+        "discription": "in parallel with 'motorbike', is a rotorcraft capable of vertical takeoff and landing"
+    },
+    "object7": {
+        "name": "train",
+        "discription": "in parallel with 'motorbike', is a series of connected vehicles that run on a track"
+    },
+    "object8": {
+        "name": "airplane",
+        "discription": "in parallel with 'motorbike', is a powered flying vehicle with fixed wings"
+    }
+}

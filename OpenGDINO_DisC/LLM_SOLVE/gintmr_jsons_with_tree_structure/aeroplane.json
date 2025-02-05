@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "aeroplane",
+        "discription": "a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces"
+    },
+    "object1": {
+        "name": "helicopter",
+        "discription": "in parallel with 'aeroplane', is a type of rotorcraft in which lift and thrust are supplied by horizontally spinning rotors"
+    },
+    "object2": {
+        "name": "glider",
+        "discription": "in parallel with 'aeroplane', is a type of aircraft that is supported in flight by the dynamic reaction of the air against its lifting surfaces, and whose free flight does not depend on an engine"
+    },
+    "object3": {
+        "name": "balloon",
+        "discription": "in parallel with 'aeroplane', is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, or air"
+    },
+    "object4": {
+        "name": "drone",
+        "discription": "in parallel with 'aeroplane', is an unmanned aircraft that can be controlled remotely or flown autonomously through software-controlled flight plans in their embedded systems, working in conjunction with onboard sensors and GPS"
+    },
+    "object5": {
+        "name": "rocket",
+        "discription": "in parallel with 'aeroplane', is a vehicle, missile, or aircraft that obtains thrust by the reaction of the rapid ejection of fast-moving exhaust gas from within a rocket engine"
+    },
+    "object6": {
+        "name": "zeppelin",
+        "discription": "in parallel with 'aeroplane', is a type of rigid airship named after the German Count Ferdinand von Zeppelin, which was invented in the early 20th century"
+    },
+    "object7": {
+        "name": "hang glider",
+        "discription": "in parallel with 'aeroplane', is a glider aircraft with no rigid primary structure, the pilot is in a harness suspended from the airframe, and controls the aircraft by shifting body weight"
+    },
+    "object8": {
+        "name": "space shuttle",
+        "discription": "in parallel with 'aeroplane', is a spacecraft capable of being launched into space and returning to Earth to be used again, primarily used by NASA for space transportation"
+    }
+}

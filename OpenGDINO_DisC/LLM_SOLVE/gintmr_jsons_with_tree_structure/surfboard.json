@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "surfboard",
+        "discription": "a long, narrow board used in surfing, designed to glide on the surface of the water"
+    },
+    "object1": {
+        "name": "snowboard",
+        "discription": "in parallel with 'surfboard', is a narrow board used for sliding on snow, typically ridden in a surfing-like stance"
+    },
+    "object2": {
+        "name": "skateboard",
+        "discription": "in parallel with 'surfboard', is a small, narrow board with wheels, used for performing tricks and cruising on flat surfaces"
+    },
+    "object3": {
+        "name": "paddleboard",
+        "discription": "in parallel with 'surfboard', is a large, stable board used for paddling on water, often for fitness or leisure"
+    },
+    "object4": {
+        "name": "wakeboard",
+        "discription": "in parallel with 'surfboard', is a short, wide board used for riding on the wake of a boat, performing jumps and tricks"
+    },
+    "object5": {
+        "name": "windsurf board",
+        "discription": "in parallel with 'surfboard', is a small, lightweight board used for windsurfing, propelled by a sail"
+    },
+    "object6": {
+        "name": "kiteboard",
+        "discription": "in parallel with 'surfboard', is a board used for kiteboarding, where a large kite provides propulsion over water"
+    },
+    "object7": {
+        "name": "bodyboard",
+        "discription": "in parallel with 'surfboard', is a short, curved board used for bodyboarding, where the rider lies on the board"
+    },
+    "object8": {
+        "name": "longboard",
+        "discription": "in parallel with 'surfboard', is a long, wide board used for cruising and carving on pavement, similar to surfing on land"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bus",
+        "discription": "a large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare"
+    },
+    "object1": {
+        "name": "train",
+        "discription": "in parallel with 'bus', is a series of connected vehicles that run along a track to transport passengers or goods"
+    },
+    "object2": {
+        "name": "tram",
+        "discription": "in parallel with 'bus', is a vehicle that runs on rails in the road, carrying passengers on a fixed route"
+    },
+    "object3": {
+        "name": "subway",
+        "discription": "in parallel with 'bus', is an underground railway system used for urban transportation"
+    },
+    "object4": {
+        "name": "ferry",
+        "discription": "in parallel with 'bus', is a boat or ship for conveying passengers and vehicles across a body of water"
+    },
+    "object5": {
+        "name": "bicycle",
+        "discription": "in parallel with 'bus', is a two-wheeled vehicle that is pedaled by the rider"
+    },
+    "object6": {
+        "name": "motorcycle",
+        "discription": "in parallel with 'bus', is a two-wheeled motor vehicle"
+    },
+    "object7": {
+        "name": "taxi",
+        "discription": "in parallel with 'bus', is a private hire vehicle authorized to transport passengers in return for payment of a fare"
+    },
+    "object8": {
+        "name": "airplane",
+        "discription": "in parallel with 'bus', is a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces"
+    }
+}

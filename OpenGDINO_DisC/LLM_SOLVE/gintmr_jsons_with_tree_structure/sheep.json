@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "sheep",
+        "discription": "a domesticated ruminant mammal typically kept for its wool or meat"
+    },
+    "object1": {
+        "name": "goat",
+        "discription": "in parallel with 'sheep', is a domesticated ruminant mammal known for its ability to climb and its distinctive beard"
+    },
+    "object2": {
+        "name": "cow",
+        "discription": "in parallel with 'sheep', is a large domesticated bovine animal primarily raised for milk and meat"
+    },
+    "object3": {
+        "name": "pig",
+        "discription": "in parallel with 'sheep', is a domesticated mammal raised for its meat, particularly pork"
+    },
+    "object4": {
+        "name": "horse",
+        "discription": "in parallel with 'sheep', is a large domesticated mammal used for riding, racing, and farm work"
+    },
+    "object5": {
+        "name": "chicken",
+        "discription": "in parallel with 'sheep', is a domesticated bird kept for its meat and eggs"
+    },
+    "object6": {
+        "name": "duck",
+        "discription": "in parallel with 'sheep', is a domesticated waterbird known for its webbed feet and ability to swim"
+    },
+    "object7": {
+        "name": "rabbit",
+        "discription": "in parallel with 'sheep', is a small domesticated mammal kept as a pet and for its meat and fur"
+    },
+    "object8": {
+        "name": "llama",
+        "discription": "in parallel with 'sheep', is a domesticated South American camelid used as a pack animal and for its wool"
+    }
+}

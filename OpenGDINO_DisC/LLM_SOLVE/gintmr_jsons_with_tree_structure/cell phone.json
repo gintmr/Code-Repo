@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "cell phone",
+        "discription": "A portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area."
+    },
+    "object1": {
+        "name": "landline",
+        "discription": "in parallel with 'cell phone', is a traditional wired telephone connection that is fixed in a location and requires a physical connection to the telephone network."
+    },
+    "object2": {
+        "name": "pager",
+        "discription": "in parallel with 'cell phone', is a wireless telecommunications device that receives and displays numeric or alphanumeric messages, used for receiving notifications without voice communication."
+    },
+    "object3": {
+        "name": "smartwatch",
+        "discription": "in parallel with 'cell phone', is a wearable computer in the form of a wristwatch that has more advanced features, often including mobile connectivity."
+    },
+    "object4": {
+        "name": "radio",
+        "discription": "in parallel with 'cell phone', is a device that receives and amplifies electromagnetic waves to produce sound, primarily used for broadcasting and receiving audio signals."
+    },
+    "object5": {
+        "name": "tablet",
+        "discription": "in parallel with 'cell phone', is a portable computer with a touchscreen interface, larger than a smartphone but smaller than a laptop, often used for web browsing, media consumption, and light productivity tasks."
+    },
+    "object6": {
+        "name": "laptop",
+        "discription": "in parallel with 'cell phone', is a portable personal computer that combines the components and inputs of a desktop computer, including a keyboard and display, into a single unit."
+    },
+    "object7": {
+        "name": "e-reader",
+        "discription": "in parallel with 'cell phone', is a portable electronic device specifically designed for reading digital books and periodicals, often with features like adjustable text size and backlighting."
+    },
+    "object8": {
+        "name": "digital camera",
+        "discription": "in parallel with 'cell phone', is an electronic device used to capture photographs and store them digitally, often with advanced features for image quality and editing."
+    }
+}

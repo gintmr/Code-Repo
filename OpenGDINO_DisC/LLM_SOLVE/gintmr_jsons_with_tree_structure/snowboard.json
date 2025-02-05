@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "snowboard",
+        "discription": "a board resembling a short, broad ski, used for sliding downhill on snow"
+    },
+    "object1": {
+        "name": "skateboard",
+        "discription": "in parallel with 'snowboard', is a narrow board with wheels, used for riding and performing tricks on streets and ramps"
+    },
+    "object2": {
+        "name": "surfboard",
+        "discription": "in parallel with 'snowboard', is a long, narrow board used in surfing, designed to glide on the surface of the water"
+    },
+    "object3": {
+        "name": "wakeboard",
+        "discription": "in parallel with 'snowboard', is a short, wide board used in wakeboarding, designed to be towed behind a boat while riding on water"
+    },
+    "object4": {
+        "name": "longboard",
+        "discription": "in parallel with 'snowboard', is a type of skateboard with a longer and wider deck, used for cruising and downhill riding"
+    },
+    "object5": {
+        "name": "snowmobile",
+        "discription": "in parallel with 'snowboard', is a vehicle designed for winter travel and recreation on snow, with tracks and skis"
+    },
+    "object6": {
+        "name": "sled",
+        "discription": "in parallel with 'snowboard', is a vehicle with a smooth undersurface or set of runners, designed to slide over snow and ice"
+    },
+    "object7": {
+        "name": "ice skate",
+        "discription": "in parallel with 'snowboard', is a boot with a metal blade attached to the bottom, used for gliding across ice"
+    },
+    "object8": {
+        "name": "rollerblade",
+        "discription": "in parallel with 'snowboard', is a boot with inline skates attached, used for inline skating on various surfaces"
+    }
+}

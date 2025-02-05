@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "kite",
+        "discription": "a lightweight, usually tetragonal or diamond-shaped, toy with a bridle to control its flight, flown in the wind at the end of a long string"
+    },
+    "object1": {
+        "name": "balloon",
+        "discription": "in parallel with 'kite', is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, or air, often used as a children's toy or for decorative purposes"
+    },
+    "object2": {
+        "name": "glider",
+        "discription": "in parallel with 'kite', is a heavier-than-air aircraft that is supported in flight by the dynamic reaction of the air against its lifting surfaces, and whose free flight does not depend on an engine"
+    },
+    "object3": {
+        "name": "drone",
+        "discription": "in parallel with 'kite', is an unmanned aircraft or ship that can navigate autonomously, without human control, or be piloted remotely"
+    },
+    "object4": {
+        "name": "parachute",
+        "discription": "in parallel with 'kite', is a device used to slow the descent of a person or object through an atmosphere by creating drag"
+    },
+    "object5": {
+        "name": "paper airplane",
+        "discription": "in parallel with 'kite', is a toy aircraft, usually a glider made out of folded paper, designed to fly for a short distance"
+    },
+    "object6": {
+        "name": "windmill",
+        "discription": "in parallel with 'kite', is a structure that converts wind energy into rotational energy by means of vanes called sails or blades, traditionally used for pumping water or grinding grain"
+    },
+    "object7": {
+        "name": "hang glider",
+        "discription": "in parallel with 'kite', is a recreational aircraft consisting of a fabric wing and a control frame, flown by a pilot who is suspended from the wing by a harness"
+    },
+    "object8": {
+        "name": "sky lantern",
+        "discription": "in parallel with 'kite', is a small hot-air balloon made of paper, with an opening at the bottom where a small fire is suspended, used for decorative or ceremonial purposes"
+    }
+}

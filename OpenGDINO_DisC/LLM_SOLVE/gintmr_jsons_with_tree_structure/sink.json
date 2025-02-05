@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "sink",
+        "discription": "a basin with a faucet, used for washing hands, dishes, etc."
+    },
+    "object1": {
+        "name": "bathtub",
+        "discription": "in parallel with 'sink', is a large, stationary container for holding water in which a person may wash their body"
+    },
+    "object2": {
+        "name": "toilet",
+        "discription": "in parallel with 'sink', is a plumbing fixture used for the disposal of human waste"
+    },
+    "object3": {
+        "name": "shower",
+        "discription": "in parallel with 'sink', is a place where water is sprayed onto the body to clean it"
+    },
+    "object4": {
+        "name": "dishwasher",
+        "discription": "in parallel with 'sink', is an appliance used to clean dishes and cookware automatically"
+    },
+    "object5": {
+        "name": "washing machine",
+        "discription": "in parallel with 'sink', is an appliance used to wash laundry"
+    },
+    "object6": {
+        "name": "faucet",
+        "discription": "in parallel with 'sink', is a device for regulating the release of water from a pipe or tap"
+    },
+    "object7": {
+        "name": "refrigerator",
+        "discription": "in parallel with 'sink', is an appliance used to store and preserve food at a cold temperature"
+    },
+    "object8": {
+        "name": "oven",
+        "discription": "in parallel with 'sink', is an appliance used for cooking food by baking or roasting"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "baseball bat",
+        "discription": "a bat used in the sport of baseball to hit the ball"
+    },
+    "object1": {
+        "name": "cricket bat",
+        "discription": "in parallel with 'baseball bat', is a bat used in the sport of cricket to hit the ball"
+    },
+    "object2": {
+        "name": "tennis racket",
+        "discription": "in parallel with 'baseball bat', is a racket used in the sport of tennis to hit the ball"
+    },
+    "object3": {
+        "name": "golf club",
+        "discription": "in parallel with 'baseball bat', is a club used in the sport of golf to hit the ball"
+    },
+    "object4": {
+        "name": "hockey stick",
+        "discription": "in parallel with 'baseball bat', is a stick used in the sport of hockey to hit the puck"
+    },
+    "object5": {
+        "name": "badminton racket",
+        "discription": "in parallel with 'baseball bat', is a racket used in the sport of badminton to hit the shuttlecock"
+    },
+    "object6": {
+        "name": "table tennis paddle",
+        "discription": "in parallel with 'baseball bat', is a paddle used in the sport of table tennis to hit the ball"
+    },
+    "object7": {
+        "name": "lacrosse stick",
+        "discription": "in parallel with 'baseball bat', is a stick used in the sport of lacrosse to carry and pass the ball"
+    },
+    "object8": {
+        "name": "squash racket",
+        "discription": "in parallel with 'baseball bat', is a racket used in the sport of squash to hit the ball against the wall"
+    }
+}

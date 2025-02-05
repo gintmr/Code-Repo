@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "carrot",
+        "discription": "a root vegetable, usually orange in color, which is a common ingredient in many dishes"
+    },
+    "object1": {
+        "name": "potato",
+        "discription": "in parallel with 'carrot', is a starchy tuber that is a staple food in many cultures"
+    },
+    "object2": {
+        "name": "turnip",
+        "discription": "in parallel with 'carrot', is a root vegetable with a white flesh and a slightly bitter taste"
+    },
+    "object3": {
+        "name": "beet",
+        "discription": "in parallel with 'carrot', is a root vegetable known for its deep red color and earthy flavor"
+    },
+    "object4": {
+        "name": "radish",
+        "discription": "in parallel with 'carrot', is a small, spicy root vegetable often used in salads"
+    },
+    "object5": {
+        "name": "parsnip",
+        "discription": "in parallel with 'carrot', is a root vegetable similar to a carrot but with a sweeter, nuttier flavor"
+    },
+    "object6": {
+        "name": "yam",
+        "discription": "in parallel with 'carrot', is a starchy root vegetable with a rough, dark brown skin and white, purple, or orange flesh"
+    },
+    "object7": {
+        "name": "celery",
+        "discription": "in parallel with 'carrot', is a vegetable with long, green stalks that are often used in soups and salads"
+    },
+    "object8": {
+        "name": "onion",
+        "discription": "in parallel with 'carrot', is a bulb vegetable with a pungent flavor and is a staple in many cuisines"
+    }
+}

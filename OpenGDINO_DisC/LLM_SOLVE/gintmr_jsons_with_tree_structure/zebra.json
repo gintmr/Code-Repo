@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "zebra",
+        "discription": "a striped African mammal related to horses and donkeys"
+    },
+    "object1": {
+        "name": "giraffe",
+        "discription": "in parallel with 'zebra', is a tall African mammal with a long neck and legs"
+    },
+    "object2": {
+        "name": "elephant",
+        "discription": "in parallel with 'zebra', is a large African mammal with a long trunk and tusks"
+    },
+    "object3": {
+        "name": "kangaroo",
+        "discription": "in parallel with 'zebra', is a large Australian marsupial that hops"
+    },
+    "object4": {
+        "name": "penguin",
+        "discription": "in parallel with 'zebra', is a flightless bird found in the Southern Hemisphere"
+    },
+    "object5": {
+        "name": "rhinoceros",
+        "discription": "in parallel with 'zebra', is a large, thick-skinned mammal with one or two horns on its snout"
+    },
+    "object6": {
+        "name": "hippopotamus",
+        "discription": "in parallel with 'zebra', is a large, semi-aquatic mammal native to Africa"
+    },
+    "object7": {
+        "name": "crocodile",
+        "discription": "in parallel with 'zebra', is a large, predatory reptile with a long snout and powerful jaws"
+    },
+    "object8": {
+        "name": "ostrich",
+        "discription": "in parallel with 'zebra', is a large, flightless bird native to Africa"
+    }
+}

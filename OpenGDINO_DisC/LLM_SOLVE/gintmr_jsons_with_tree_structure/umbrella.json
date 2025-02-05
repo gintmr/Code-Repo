@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "umbrella",
+        "discription": "A portable, collapsible canopy supported by metal ribs, designed to protect against rain or sun."
+    },
+    "object1": {
+        "name": "parasol",
+        "discription": "in parallel with 'umbrella', is a lightweight canopy supported by wooden or metal ribs, designed primarily to protect against the sun."
+    },
+    "object2": {
+        "name": "awning",
+        "discription": "in parallel with 'umbrella', is a fixed or retractable covering, often made of fabric or metal, installed over a window or door to provide shade."
+    },
+    "object3": {
+        "name": "tent",
+        "discription": "in parallel with 'umbrella', is a portable shelter made of fabric and supported by poles, used for camping or temporary accommodation."
+    },
+    "object4": {
+        "name": "canopy",
+        "discription": "in parallel with 'umbrella', is a permanent or semi-permanent structure, often made of fabric or metal, used to provide shade or shelter over a bed, vehicle, or outdoor space."
+    },
+    "object5": {
+        "name": "sunshade",
+        "discription": "in parallel with 'umbrella', is a device, often resembling an umbrella, designed to block sunlight and reduce glare."
+    },
+    "object6": {
+        "name": "gazebo",
+        "discription": "in parallel with 'umbrella', is a freestanding, decorative structure with a roof and open sides, often used in gardens or parks for relaxation."
+    },
+    "object7": {
+        "name": "shade sail",
+        "discription": "in parallel with 'umbrella', is a triangular or rectangular piece of fabric tensioned between posts or buildings to provide shade in outdoor spaces."
+    },
+    "object8": {
+        "name": "brolly",
+        "discription": "in parallel with 'umbrella', is a colloquial term for an umbrella, often used in British English, referring to a small, portable canopy for protection against rain."
+    }
+}

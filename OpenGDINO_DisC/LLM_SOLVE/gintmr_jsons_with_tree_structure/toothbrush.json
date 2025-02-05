@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "toothbrush",
+        "discription": "a tool used for cleaning teeth"
+    },
+    "object1": {
+        "name": "hairbrush",
+        "discription": "in parallel with 'toothbrush', is a tool used for grooming hair"
+    },
+    "object2": {
+        "name": "nail brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for cleaning nails"
+    },
+    "object3": {
+        "name": "dish brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for scrubbing dishes"
+    },
+    "object4": {
+        "name": "toilet brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for cleaning toilets"
+    },
+    "object5": {
+        "name": "paintbrush",
+        "discription": "in parallel with 'toothbrush', is a tool used for applying paint"
+    },
+    "object6": {
+        "name": "carpet brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for cleaning carpets"
+    },
+    "object7": {
+        "name": "shoe brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for cleaning shoes"
+    },
+    "object8": {
+        "name": "window brush",
+        "discription": "in parallel with 'toothbrush', is a tool used for cleaning windows"
+    }
+}

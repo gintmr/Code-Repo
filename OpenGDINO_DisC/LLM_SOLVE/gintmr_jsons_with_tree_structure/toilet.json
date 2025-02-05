@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "toilet",
+        "discription": "a plumbing fixture used for the disposal of human waste"
+    },
+    "object1": {
+        "name": "sink",
+        "discription": "in parallel with 'toilet', is a plumbing fixture used for washing hands, dishes, and other small items"
+    },
+    "object2": {
+        "name": "bathtub",
+        "discription": "in parallel with 'toilet', is a large container for holding water in which a person may bathe"
+    },
+    "object3": {
+        "name": "shower",
+        "discription": "in parallel with 'toilet', is a place where water is sprayed on the body to clean it"
+    },
+    "object4": {
+        "name": "urinal",
+        "discription": "in parallel with 'toilet', is a plumbing fixture used primarily for the disposal of urine"
+    },
+    "object5": {
+        "name": "bidet",
+        "discription": "in parallel with 'toilet', is a plumbing fixture used for washing the genitalia and the anus"
+    },
+    "object6": {
+        "name": "washing machine",
+        "discription": "in parallel with 'toilet', is an appliance used to wash laundry"
+    },
+    "object7": {
+        "name": "dishwasher",
+        "discription": "in parallel with 'toilet', is an appliance used to clean dishes and cookware"
+    },
+    "object8": {
+        "name": "water heater",
+        "discription": "in parallel with 'toilet', is a device that heats water for domestic or industrial use"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "toaster",
+        "discription": "a kitchen appliance used for toasting bread"
+    },
+    "object1": {
+        "name": "blender",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for blending ingredients"
+    },
+    "object2": {
+        "name": "microwave",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for heating food quickly"
+    },
+    "object3": {
+        "name": "coffee maker",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for brewing coffee"
+    },
+    "object4": {
+        "name": "juicer",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for extracting juice from fruits and vegetables"
+    },
+    "object5": {
+        "name": "dishwasher",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for cleaning dishes"
+    },
+    "object6": {
+        "name": "refrigerator",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for preserving food at low temperatures"
+    },
+    "object7": {
+        "name": "oven",
+        "discription": "in parallel with 'toaster', is a kitchen appliance used for baking and roasting food"
+    },
+    "object8": {
+        "name": "vacuum cleaner",
+        "discription": "in parallel with 'toaster', is a household appliance used for cleaning floors and carpets"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "donut",
+        "discription": "a sweet, ring-shaped pastry typically filled with cream or jelly, and topped with glaze or sprinkles"
+    },
+    "object1": {
+        "name": "bagel",
+        "discription": "in parallel with 'donut', is a dense, chewy bread roll with a hole in the middle, typically topped with sesame or poppy seeds"
+    },
+    "object2": {
+        "name": "croissant",
+        "discription": "in parallel with 'donut', is a buttery, flaky pastry of Austrian origin, named for its historical crescent shape"
+    },
+    "object3": {
+        "name": "muffin",
+        "discription": "in parallel with 'donut', is a small, baked cake-like product, often sweet and sometimes with fruit or nuts"
+    },
+    "object4": {
+        "name": "biscuit",
+        "discription": "in parallel with 'donut', is a small, baked, often savory product, similar to a scone but typically more crumbly"
+    },
+    "object5": {
+        "name": "danish",
+        "discription": "in parallel with 'donut', is a sweet pastry made with yeast-leavened dough, often filled with fruit or cheese"
+    },
+    "object6": {
+        "name": "strudel",
+        "discription": "in parallel with 'donut', is a sweet or savory pastry made with thin, flaky dough, often filled with apple or cheese"
+    },
+    "object7": {
+        "name": "pretzel",
+        "discription": "in parallel with 'donut', is a type of baked pastry made from dough that is twisted into a shape, often salty and chewy"
+    },
+    "object8": {
+        "name": "eclair",
+        "discription": "in parallel with 'donut', is a long, thin pastry made with choux dough filled with cream and topped with icing"
+    }
+}

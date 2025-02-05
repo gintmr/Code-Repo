@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "broccoli",
+        "discription": "a green vegetable with a tree-like appearance, often eaten cooked or raw"
+    },
+    "object1": {
+        "name": "cauliflower",
+        "discription": "in parallel with 'broccoli', is a white vegetable that resembles broccoli but forms a compact, rounded head"
+    },
+    "object2": {
+        "name": "asparagus",
+        "discription": "in parallel with 'broccoli', is a green vegetable with long, thin stalks that are often cooked and served as a side dish"
+    },
+    "object3": {
+        "name": "zucchini",
+        "discription": "in parallel with 'broccoli', is a green, cylindrical vegetable that is a type of squash, often used in cooking"
+    },
+    "object4": {
+        "name": "brussels sprouts",
+        "discription": "in parallel with 'broccoli', is a small, green vegetable that grows in clusters, resembling miniature cabbages"
+    },
+    "object5": {
+        "name": "kale",
+        "discription": "in parallel with 'broccoli', is a dark green, leafy vegetable that is often used in salads or cooked as a side dish"
+    },
+    "object6": {
+        "name": "spinach",
+        "discription": "in parallel with 'broccoli', is a green, leafy vegetable that is rich in iron and often used in salads or cooked dishes"
+    },
+    "object7": {
+        "name": "cabbage",
+        "discription": "in parallel with 'broccoli', is a leafy green, red, or white vegetable that forms a compact head and is often used in cooking"
+    },
+    "object8": {
+        "name": "eggplant",
+        "discription": "in parallel with 'broccoli', is a purple, egg-shaped vegetable that is often used in various cuisines, including Mediterranean and Asian"
+    }
+}

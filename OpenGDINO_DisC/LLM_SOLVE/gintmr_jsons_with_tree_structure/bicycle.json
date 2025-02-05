@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bicycle",
+        "discription": "a two-wheeled vehicle powered by human pedaling"
+    },
+    "object1": {
+        "name": "motorcycle",
+        "discription": "in parallel with 'bicycle', is a two-wheeled vehicle powered by an internal combustion engine"
+    },
+    "object2": {
+        "name": "scooter",
+        "discription": "in parallel with 'bicycle', is a small, motorized or non-motorized vehicle with a platform for the feet"
+    },
+    "object3": {
+        "name": "tricycle",
+        "discription": "in parallel with 'bicycle', is a three-wheeled vehicle, often used by children or for cargo"
+    },
+    "object4": {
+        "name": "unicycle",
+        "discription": "in parallel with 'bicycle', is a one-wheeled vehicle, requiring balance and skill to ride"
+    },
+    "object5": {
+        "name": "skateboard",
+        "discription": "in parallel with 'bicycle', is a flat platform with wheels, ridden by standing and using feet to propel"
+    },
+    "object6": {
+        "name": "rollerblades",
+        "discription": "in parallel with 'bicycle', are inline skates that allow for fast movement on flat surfaces"
+    },
+    "object7": {
+        "name": "pogo stick",
+        "discription": "in parallel with 'bicycle', is a device for bouncing, consisting of a pole with a spring and foot platforms"
+    },
+    "object8": {
+        "name": "hoverboard",
+        "discription": "in parallel with 'bicycle', is a self-balancing, battery-powered scooter without pedals"
+    }
+}

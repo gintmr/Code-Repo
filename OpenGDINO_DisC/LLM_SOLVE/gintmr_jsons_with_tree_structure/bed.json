@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bed",
+        "discription": "A piece of furniture used for sleeping or resting."
+    },
+    "object1": {
+        "name": "couch",
+        "discription": "in parallel with 'bed', is a piece of furniture designed for sitting, often used in living rooms."
+    },
+    "object2": {
+        "name": "chair",
+        "discription": "in parallel with 'bed', is a piece of furniture designed for a single person to sit on, with a backrest and sometimes armrests."
+    },
+    "object3": {
+        "name": "table",
+        "discription": "in parallel with 'bed', is a piece of furniture with a flat surface, often used for dining or working."
+    },
+    "object4": {
+        "name": "desk",
+        "discription": "in parallel with 'bed', is a piece of furniture designed for writing, reading, or using a computer, often with drawers."
+    },
+    "object5": {
+        "name": "stool",
+        "discription": "in parallel with 'bed', is a simple, backless piece of furniture designed for sitting, often without legs."
+    },
+    "object6": {
+        "name": "bench",
+        "discription": "in parallel with 'bed', is a long, sturdy piece of furniture designed for multiple people to sit on, often found in parks or gardens."
+    },
+    "object7": {
+        "name": "futon",
+        "discription": "in parallel with 'bed', is a Japanese mattress that can be folded and used as a couch during the day."
+    },
+    "object8": {
+        "name": "hammock",
+        "discription": "in parallel with 'bed', is a piece of fabric or netting suspended between two points, used for resting or sleeping outdoors."
+    }
+}

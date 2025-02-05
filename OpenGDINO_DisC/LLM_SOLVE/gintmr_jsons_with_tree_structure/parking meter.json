@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "parking meter",
+        "discription": "A device used to collect payment for parking a vehicle in a particular spot for a limited amount of time."
+    },
+    "object1": {
+        "name": "vending machine",
+        "discription": "in parallel with 'parking meter', is a device that dispenses items such as snacks, beverages, and other products after a certain amount of money is inserted."
+    },
+    "object2": {
+        "name": "ATM",
+        "discription": "in parallel with 'parking meter', is an automated machine that provides a way to withdraw, deposit, or check balances in a bank account."
+    },
+    "object3": {
+        "name": "payphone",
+        "discription": "in parallel with 'parking meter', is a public telephone with a coin-operated mechanism that accepts payment for making calls."
+    },
+    "object4": {
+        "name": "ticket machine",
+        "discription": "in parallel with 'parking meter', is a device used to purchase tickets for public transportation such as buses and trains."
+    },
+    "object5": {
+        "name": "laundry machine",
+        "discription": "in parallel with 'parking meter', is a device used to wash and dry clothes, requiring payment or coins to operate."
+    },
+    "object6": {
+        "name": "photo booth",
+        "discription": "in parallel with 'parking meter', is a vending machine-like structure that contains a camera and photographic printer, used to take and print photos."
+    },
+    "object7": {
+        "name": "charging station",
+        "discription": "in parallel with 'parking meter', is a device that provides electrical power to charge electric vehicles, often requiring payment for usage."
+    },
+    "object8": {
+        "name": "coin-operated arcade game",
+        "discription": "in parallel with 'parking meter', is a type of game machine that requires payment in the form of coins to play."
+    }
+}

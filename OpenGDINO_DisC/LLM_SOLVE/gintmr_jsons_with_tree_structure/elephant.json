@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "elephant",
+        "discription": "in parallel with 'elephant', is a large, herbivorous mammal known for its long trunk and tusks"
+    },
+    "object1": {
+        "name": "giraffe",
+        "discription": "in parallel with 'elephant', is a tall, herbivorous mammal with a long neck and legs, native to Africa"
+    },
+    "object2": {
+        "name": "rhinoceros",
+        "discription": "in parallel with 'elephant', is a large, herbivorous mammal with a thick skin and one or two horns on its nose"
+    },
+    "object3": {
+        "name": "hippopotamus",
+        "discription": "in parallel with 'elephant', is a large, semi-aquatic mammal native to Africa, known for its aggressive behavior"
+    },
+    "object4": {
+        "name": "gorilla",
+        "discription": "in parallel with 'elephant', is a large, ground-dwelling primate native to the forests of central Africa"
+    },
+    "object5": {
+        "name": "kangaroo",
+        "discription": "in parallel with 'elephant', is a large, marsupial native to Australia, known for its powerful hind legs and tail"
+    },
+    "object6": {
+        "name": "ostrich",
+        "discription": "in parallel with 'elephant', is a large, flightless bird native to Africa, known for its long neck and legs"
+    },
+    "object7": {
+        "name": "whale",
+        "discription": "in parallel with 'elephant', is a large, marine mammal known for its aquatic lifestyle and blowhole"
+    },
+    "object8": {
+        "name": "crocodile",
+        "discription": "in parallel with 'elephant', is a large, semi-aquatic reptile native to tropical regions of Africa, Asia, and the Americas"
+    }
+}

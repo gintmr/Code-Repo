@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "car",
+        "discription": "a vehicle designed for transportation on land, typically with four wheels and powered by an internal combustion engine or electric motor"
+    },
+    "object1": {
+        "name": "bicycle",
+        "discription": "in parallel with 'car', is a human-powered vehicle with two wheels, commonly used for personal transportation"
+    },
+    "object2": {
+        "name": "motorcycle",
+        "discription": "in parallel with 'car', is a two-wheeled motor vehicle, often used for personal transportation and sport"
+    },
+    "object3": {
+        "name": "truck",
+        "discription": "in parallel with 'car', is a large motor vehicle designed for transporting goods, often with a cargo bed"
+    },
+    "object4": {
+        "name": "bus",
+        "discription": "in parallel with 'car', is a large motor vehicle designed to carry passengers, typically on a fixed route and fare system"
+    },
+    "object5": {
+        "name": "scooter",
+        "discription": "in parallel with 'car', is a small, motorized vehicle with two wheels, often used for short-distance commuting"
+    },
+    "object6": {
+        "name": "train",
+        "discription": "in parallel with 'car', is a rail vehicle that provides transportation, typically on tracks and for longer distances"
+    },
+    "object7": {
+        "name": "helicopter",
+        "discription": "in parallel with 'car', is a rotorcraft capable of vertical takeoff and landing, used for various purposes including transportation"
+    },
+    "object8": {
+        "name": "boat",
+        "discription": "in parallel with 'car', is a watercraft designed for navigation on water, used for various purposes including transportation"
+    }
+}

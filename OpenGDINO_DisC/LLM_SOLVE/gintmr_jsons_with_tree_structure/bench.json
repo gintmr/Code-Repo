@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bench",
+        "discription": "a long seat for two or more people, typically made of wood, stone, or metal"
+    },
+    "object1": {
+        "name": "chair",
+        "discription": "in parallel with 'bench', is a piece of furniture for one person to sit on, typically with a back and four legs"
+    },
+    "object2": {
+        "name": "table",
+        "discription": "in parallel with 'bench', is a piece of furniture with a flat top and one or more legs, providing a surface for eating, writing, or working"
+    },
+    "object3": {
+        "name": "sofa",
+        "discription": "in parallel with 'bench', is a long upholstered seat with a back and arms, for two or more people"
+    },
+    "object4": {
+        "name": "stool",
+        "discription": "in parallel with 'bench', is a seat without a back or arms, typically resting on three or four legs"
+    },
+    "object5": {
+        "name": "desk",
+        "discription": "in parallel with 'bench', is a piece of furniture with a flat or sloping surface, used for reading, writing, or working at"
+    },
+    "object6": {
+        "name": "bed",
+        "discription": "in parallel with 'bench', is a piece of furniture for sleeping or resting on, typically consisting of a mattress on a bed frame"
+    },
+    "object7": {
+        "name": "couch",
+        "discription": "in parallel with 'bench', is a long upholstered seat with a back and arms, for two or more people, similar to a sofa but often more informal"
+    },
+    "object8": {
+        "name": "futon",
+        "discription": "in parallel with 'bench', is a mattress that can be used as a seat during the day and a bed at night, typically placed on the floor or a low frame"
+    }
+}

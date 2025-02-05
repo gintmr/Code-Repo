@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bear",
+        "discription": "a large, strong mammal with a thick fur coat, known for its strength and sometimes aggressive behavior"
+    },
+    "object1": {
+        "name": "panda",
+        "discription": "in parallel with 'bear', is a bear species native to China, characterized by its distinctive black and white fur and bamboo diet"
+    },
+    "object2": {
+        "name": "koala",
+        "discription": "in parallel with 'bear', is a marsupial native to Australia, known for its tree-dwelling lifestyle and diet of eucalyptus leaves"
+    },
+    "object3": {
+        "name": "raccoon",
+        "discription": "in parallel with 'bear', is a medium-sized mammal with a distinctive black mask-like marking around its eyes, known for its intelligence and adaptability"
+    },
+    "object4": {
+        "name": "badger",
+        "discription": "in parallel with 'bear', is a burrowing mammal with a broad head and strong claws, known for its nocturnal habits and defensive nature"
+    },
+    "object5": {
+        "name": "wolverine",
+        "discription": "in parallel with 'bear', is a fierce, stocky mammal with a reputation for being aggressive and resilient, often found in cold climates"
+    },
+    "object6": {
+        "name": "hyena",
+        "discription": "in parallel with 'bear', is a carnivorous mammal with a strong bite and scavenging habits, often found in African savannas"
+    },
+    "object7": {
+        "name": "otter",
+        "discription": "in parallel with 'bear', is a semi-aquatic mammal known for its playful behavior and strong swimming abilities, often found near rivers and coasts"
+    },
+    "object8": {
+        "name": "beaver",
+        "discription": "in parallel with 'bear', is a large, aquatic rodent known for its dam-building activities and flat, scaly tail, often found in North American and Eurasian forests"
+    }
+}

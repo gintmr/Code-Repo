@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "backpack",
+        "discription": "a bag with shoulder straps, carried on someone's back, typically used for carrying books, clothes, or other items"
+    },
+    "object1": {
+        "name": "suitcase",
+        "discription": "in parallel with 'backpack', is a large, rigid container with a handle and wheels, used for carrying clothes and belongings when traveling"
+    },
+    "object2": {
+        "name": "briefcase",
+        "discription": "in parallel with 'backpack', is a flat, rectangular case with a handle, used for carrying documents and business materials"
+    },
+    "object3": {
+        "name": "tote bag",
+        "discription": "in parallel with 'backpack', is a large, open bag with two handles, often used for carrying groceries or shopping items"
+    },
+    "object4": {
+        "name": "duffel bag",
+        "discription": "in parallel with 'backpack', is a large, cylindrical bag with a drawstring closure, often used for sports equipment or travel"
+    },
+    "object5": {
+        "name": "messenger bag",
+        "discription": "in parallel with 'backpack', is a bag with a long strap that goes across the body, used for carrying documents, laptops, and other items"
+    },
+    "object6": {
+        "name": "clutch",
+        "discription": "in parallel with 'backpack', is a small, handheld bag without handles, often used for carrying essentials such as money, keys, and makeup"
+    },
+    "object7": {
+        "name": "fanny pack",
+        "discription": "in parallel with 'backpack', is a small, pouch-like bag worn around the waist, used for carrying small items such as keys, money, and a phone"
+    },
+    "object8": {
+        "name": "satchel",
+        "discription": "in parallel with 'backpack', is a bag with a strap and a flap, often used for carrying books, documents, and other items"
+    }
+}

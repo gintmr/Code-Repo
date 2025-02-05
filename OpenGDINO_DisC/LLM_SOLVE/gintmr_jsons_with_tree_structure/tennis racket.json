@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "tennis racket",
+        "discription": "a sports equipment used for playing tennis"
+    },
+    "object1": {
+        "name": "badminton racket",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing badminton"
+    },
+    "object2": {
+        "name": "golf club",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing golf"
+    },
+    "object3": {
+        "name": "baseball bat",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing baseball"
+    },
+    "object4": {
+        "name": "cricket bat",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing cricket"
+    },
+    "object5": {
+        "name": "table tennis paddle",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing table tennis"
+    },
+    "object6": {
+        "name": "squash racket",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing squash"
+    },
+    "object7": {
+        "name": "pickleball paddle",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing pickleball"
+    },
+    "object8": {
+        "name": "lacrosse stick",
+        "discription": "in parallel with 'tennis racket', is a sports equipment used for playing lacrosse"
+    }
+}

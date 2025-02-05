@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "hair drier",
+        "discription": "a device used to dry and style hair"
+    },
+    "object1": {
+        "name": "leaf blower",
+        "discription": "in parallel with 'hair drier', is a device used to blow leaves and debris from surfaces"
+    },
+    "object2": {
+        "name": "vacuum cleaner",
+        "discription": "in parallel with 'hair drier', is a device used to remove dirt and dust from surfaces"
+    },
+    "object3": {
+        "name": "air compressor",
+        "discription": "in parallel with 'hair drier', is a device used to convert power into potential energy stored in pressurized air"
+    },
+    "object4": {
+        "name": "electric fan",
+        "discription": "in parallel with 'hair drier', is a device used to create a flow of air for cooling or ventilation"
+    },
+    "object5": {
+        "name": "pressure washer",
+        "discription": "in parallel with 'hair drier', is a device used to clean surfaces by using a high-pressure stream of water"
+    },
+    "object6": {
+        "name": "electric kettle",
+        "discription": "in parallel with 'hair drier', is a device used to boil water for beverages"
+    },
+    "object7": {
+        "name": "microwave oven",
+        "discription": "in parallel with 'hair drier', is a device used to cook or heat food by using microwave radiation"
+    },
+    "object8": {
+        "name": "electric toothbrush",
+        "discription": "in parallel with 'hair drier', is a device used to clean teeth by using electric power"
+    }
+}

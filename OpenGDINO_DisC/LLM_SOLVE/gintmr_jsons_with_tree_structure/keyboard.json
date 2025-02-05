@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "keyboard",
+        "discription": "The user-provided noun is 'keyboard', which is an input device used to enter characters and commands into a computer."
+    },
+    "object1": {
+        "name": "piano",
+        "discription": "in parallel with 'keyboard', is a musical instrument with keys that produce sound when struck, used for playing melodies and chords."
+    },
+    "object2": {
+        "name": "typewriter",
+        "discription": "in parallel with 'keyboard', is a mechanical or electromechanical machine for typing text onto paper, using keys to strike an inked ribbon."
+    },
+    "object3": {
+        "name": "calculator",
+        "discription": "in parallel with 'keyboard', is a device used primarily for performing mathematical calculations, with keys for numbers and operations."
+    },
+    "object4": {
+        "name": "keypad",
+        "discription": "in parallel with 'keyboard', is a small, often numeric, keyboard used for entering data, commonly found on devices like telephones and remote controls."
+    },
+    "object5": {
+        "name": "synthesizer",
+        "discription": "in parallel with 'keyboard', is an electronic musical instrument that generates and combines sounds, often controlled by a keyboard."
+    },
+    "object6": {
+        "name": "cash register",
+        "discription": "in parallel with 'keyboard', is a mechanical or electronic device used in retail to calculate transactions and store money, with a keypad for entering prices and quantities."
+    },
+    "object7": {
+        "name": "sewing machine",
+        "discription": "in parallel with 'keyboard', is a machine used to stitch fabric and other materials together with thread, often controlled by a foot pedal or a small keyboard."
+    },
+    "object8": {
+        "name": "ATM",
+        "discription": "in parallel with 'keyboard', is an automated machine that provides access to financial transactions in banks, using a keypad for user input."
+    }
+}

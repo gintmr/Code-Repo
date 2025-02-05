@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "tvmonitor",
+        "discription": "A device used for displaying television signals or computer output, often found in homes and offices."
+    },
+    "object1": {
+        "name": "projector",
+        "discription": "in parallel with 'tvmonitor', is a device used to project images or videos onto a screen, commonly used in presentations and home theaters."
+    },
+    "object2": {
+        "name": "smartphone",
+        "discription": "in parallel with 'tvmonitor', is a portable device that combines a phone with computing capabilities, used for communication and various applications."
+    },
+    "object3": {
+        "name": "tablet",
+        "discription": "in parallel with 'tvmonitor', is a portable computer with a touchscreen interface, used for browsing the web, reading, and media consumption."
+    },
+    "object4": {
+        "name": "laptop",
+        "discription": "in parallel with 'tvmonitor', is a portable computer that combines the components of a desktop computer with a foldable screen and keyboard."
+    },
+    "object5": {
+        "name": "desktop",
+        "discription": "in parallel with 'tvmonitor', is a personal computer designed for use on a desk, consisting of a large monitor, tower, and peripherals."
+    },
+    "object6": {
+        "name": "smartwatch",
+        "discription": "in parallel with 'tvmonitor', is a wearable computer in the form of a watch, used for tracking fitness, notifications, and basic computing tasks."
+    },
+    "object7": {
+        "name": "e-reader",
+        "discription": "in parallel with 'tvmonitor', is a device designed for reading digital books and periodicals, often with an e-ink display for easy reading."
+    },
+    "object8": {
+        "name": "gaming console",
+        "discription": "in parallel with 'tvmonitor', is a specialized device designed for playing video games, connected to a television for display."
+    }
+}

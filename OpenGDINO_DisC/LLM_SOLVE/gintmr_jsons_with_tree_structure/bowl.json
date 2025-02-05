@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bowl",
+        "discription": "a common household item used for serving food"
+    },
+    "object1": {
+        "name": "vase",
+        "discription": "in parallel with 'bowl', is a decorative container often used for holding flowers"
+    },
+    "object2": {
+        "name": "plate",
+        "discription": "in parallel with 'bowl', is a flat dish used for serving individual portions of food"
+    },
+    "object3": {
+        "name": "cup",
+        "discription": "in parallel with 'bowl', is a small, open-top container used for drinking liquids"
+    },
+    "object4": {
+        "name": "jug",
+        "discription": "in parallel with 'bowl', is a large container with a handle and spout, used for holding and pouring liquids"
+    },
+    "object5": {
+        "name": "tray",
+        "discription": "in parallel with 'bowl', is a flat, shallow surface used for carrying items or serving food"
+    },
+    "object6": {
+        "name": "pot",
+        "discription": "in parallel with 'bowl', is a container used for cooking or serving food, often with a handle and lid"
+    },
+    "object7": {
+        "name": "basket",
+        "discription": "in parallel with 'bowl', is a container made of interwoven material, used for carrying or holding items"
+    },
+    "object8": {
+        "name": "dish",
+        "discription": "in parallel with 'bowl', is a shallow, flat container used for serving food, often part of a set"
+    }
+}

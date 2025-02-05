@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "boat",
+        "discription": "a watercraft of a certain size, designed to float on water and provide transport over it"
+    },
+    "object1": {
+        "name": "ship",
+        "discription": "in parallel with 'boat', is a large watercraft that travels the oceans and other sufficiently deep waterways"
+    },
+    "object2": {
+        "name": "raft",
+        "discription": "in parallel with 'boat', is a simple, flat watercraft made from materials lashed together, often used for river travel"
+    },
+    "object3": {
+        "name": "canoe",
+        "discription": "in parallel with 'boat', is a lightweight narrow watercraft, typically pointed at both ends and propelled by one or more paddlers"
+    },
+    "object4": {
+        "name": "yacht",
+        "discription": "in parallel with 'boat', is a recreational boat that is used for sailing, racing, or cruising on lakes or oceans"
+    },
+    "object5": {
+        "name": "submarine",
+        "discription": "in parallel with 'boat', is a watercraft capable of independent operation underwater, used for naval warfare or research"
+    },
+    "object6": {
+        "name": "ferry",
+        "discription": "in parallel with 'boat', is a merchant vessel used to carry passengers, and sometimes vehicles and cargo, across a body of water"
+    },
+    "object7": {
+        "name": "dinghy",
+        "discription": "in parallel with 'boat', is a small, open boat, often used as a tender for a larger vessel or for recreational purposes"
+    },
+    "object8": {
+        "name": "hovercraft",
+        "discription": "in parallel with 'boat', is a craft capable of traveling over surfaces while supported by a cushion of slowly moving, high-pressure air"
+    }
+}

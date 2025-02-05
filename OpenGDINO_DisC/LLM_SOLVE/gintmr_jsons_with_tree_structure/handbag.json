@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "handbag",
+        "discription": "a small bag typically used by women to carry personal items"
+    },
+    "object1": {
+        "name": "backpack",
+        "discription": "in parallel with 'handbag', is a bag with straps to be worn on the back, typically used for carrying books and other items"
+    },
+    "object2": {
+        "name": "briefcase",
+        "discription": "in parallel with 'handbag', is a flat, rectangular case used for carrying documents and papers, typically used by business professionals"
+    },
+    "object3": {
+        "name": "tote bag",
+        "discription": "in parallel with 'handbag', is a large, open bag with parallel handles, often used for carrying groceries or other large items"
+    },
+    "object4": {
+        "name": "clutch",
+        "discription": "in parallel with 'handbag', is a small, handheld bag without handles, often used for formal occasions"
+    },
+    "object5": {
+        "name": "duffel bag",
+        "discription": "in parallel with 'handbag', is a large, cylindrical bag with a drawstring closure at the top, often used for travel or sports equipment"
+    },
+    "object6": {
+        "name": "messenger bag",
+        "discription": "in parallel with 'handbag', is a bag with a long strap to be worn across the body, often used for carrying documents and other items"
+    },
+    "object7": {
+        "name": "saddlebag",
+        "discription": "in parallel with 'handbag', is a bag designed to be attached to a bicycle or motorcycle, used for carrying small items"
+    },
+    "object8": {
+        "name": "satchel",
+        "discription": "in parallel with 'handbag', is a bag with a strap and a flap, often used for carrying books and other items"
+    }
+}

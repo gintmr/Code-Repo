@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "oven",
+        "discription": "a kitchen appliance used for cooking food by baking or roasting"
+    },
+    "object1": {
+        "name": "microwave",
+        "discription": "in parallel with 'oven', is a kitchen appliance that heats food by using microwave radiation"
+    },
+    "object2": {
+        "name": "stovetop",
+        "discription": "in parallel with 'oven', is a kitchen appliance that uses burners to heat pots and pans directly"
+    },
+    "object3": {
+        "name": "toaster",
+        "discription": "in parallel with 'oven', is a kitchen appliance that browns bread by exposing it to radiant heat"
+    },
+    "object4": {
+        "name": "blender",
+        "discription": "in parallel with 'oven', is a kitchen appliance used to mix, puree, or emulsify food and other substances"
+    },
+    "object5": {
+        "name": "refrigerator",
+        "discription": "in parallel with 'oven', is a kitchen appliance used to store and preserve food at low temperatures"
+    },
+    "object6": {
+        "name": "dishwasher",
+        "discription": "in parallel with 'oven', is a kitchen appliance used to clean dishes and cookware automatically"
+    },
+    "object7": {
+        "name": "coffee maker",
+        "discription": "in parallel with 'oven', is a kitchen appliance used to brew coffee by passing hot water through ground coffee"
+    },
+    "object8": {
+        "name": "rice cooker",
+        "discription": "in parallel with 'oven', is a kitchen appliance used to cook rice by maintaining a constant temperature"
+    }
+}

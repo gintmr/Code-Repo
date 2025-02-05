@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "bird",
+        "discription": "a warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak"
+    },
+    "object1": {
+        "name": "bat",
+        "discription": "in parallel with 'bird', is a flying mammal that uses echolocation to navigate and hunt insects"
+    },
+    "object2": {
+        "name": "butterfly",
+        "discription": "in parallel with 'bird', is an insect with large, often brightly colored wings and a slender body"
+    },
+    "object3": {
+        "name": "dragonfly",
+        "discription": "in parallel with 'bird', is an insect with a long, slender body, large eyes, and two pairs of transparent wings"
+    },
+    "object4": {
+        "name": "hummingbird",
+        "discription": "in parallel with 'bird', is a very small bird that can hover in mid-air by rapidly flapping its wings"
+    },
+    "object5": {
+        "name": "penguin",
+        "discription": "in parallel with 'bird', is a flightless bird that lives in the Southern Hemisphere, known for its black and white plumage and waddling gait"
+    },
+    "object6": {
+        "name": "ostrich",
+        "discription": "in parallel with 'bird', is a large, flightless bird with a long neck and legs, native to Africa"
+    },
+    "object7": {
+        "name": "kiwi",
+        "discription": "in parallel with 'bird', is a small, flightless bird native to New Zealand, with hair-like feathers and a long beak"
+    },
+    "object8": {
+        "name": "eagle",
+        "discription": "in parallel with 'bird', is a large, powerful bird of prey with a hooked beak and sharp talons, known for its keen eyesight"
+    }
+}

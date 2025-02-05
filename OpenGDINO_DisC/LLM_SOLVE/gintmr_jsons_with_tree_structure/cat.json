@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "cat",
+        "discription": "a domesticated carnivorous mammal with soft fur, a short snout, and retractable claws"
+    },
+    "object1": {
+        "name": "dog",
+        "discription": "in parallel with 'cat', is a domesticated carnivorous mammal with a keen sense of smell, often kept as a pet or for working purposes"
+    },
+    "object2": {
+        "name": "rabbit",
+        "discription": "in parallel with 'cat', is a small, furry, herbivorous mammal with long ears and a short tail, often kept as a pet"
+    },
+    "object3": {
+        "name": "hamster",
+        "discription": "in parallel with 'cat', is a small, burrowing rodent with large cheek pouches, commonly kept as a pet"
+    },
+    "object4": {
+        "name": "parrot",
+        "discription": "in parallel with 'cat', is a colorful, tropical bird known for its ability to mimic human speech, often kept as a pet"
+    },
+    "object5": {
+        "name": "snake",
+        "discription": "in parallel with 'cat', is a long, legless reptile with a muscular body and no eyelids, some species are kept as pets"
+    },
+    "object6": {
+        "name": "fish",
+        "discription": "in parallel with 'cat', is a cold-blooded aquatic vertebrate with gills, scales, and fins, commonly kept in aquariums"
+    },
+    "object7": {
+        "name": "turtle",
+        "discription": "in parallel with 'cat', is a slow-moving reptile with a hard shell, often kept as a pet or in aquariums"
+    },
+    "object8": {
+        "name": "ferret",
+        "discription": "in parallel with 'cat', is a small, carnivorous mammal related to the weasel, often kept as a pet"
+    }
+}

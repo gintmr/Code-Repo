@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "baseball glove",
+        "discription": "A piece of equipment used by baseball players to catch and field the ball."
+    },
+    "object1": {
+        "name": "soccer cleat",
+        "discription": "in parallel with 'baseball glove', is a specialized shoe designed for soccer players to enhance traction on grass fields."
+    },
+    "object2": {
+        "name": "hockey stick",
+        "discription": "in parallel with 'baseball glove', is a long, curved implement used by hockey players to hit and control the puck."
+    },
+    "object3": {
+        "name": "tennis racket",
+        "discription": "in parallel with 'baseball glove', is a piece of equipment used by tennis players to hit the ball over the net."
+    },
+    "object4": {
+        "name": "basketball",
+        "discription": "in parallel with 'baseball glove', is a spherical ball used in the sport of basketball, primarily for shooting and dribbling."
+    },
+    "object5": {
+        "name": "cricket bat",
+        "discription": "in parallel with 'baseball glove', is a flat-faced wooden implement used by cricket players to hit the ball."
+    },
+    "object6": {
+        "name": "golf club",
+        "discription": "in parallel with 'baseball glove', is a long-handled implement used by golfers to hit the golf ball."
+    },
+    "object7": {
+        "name": "volleyball net",
+        "discription": "in parallel with 'baseball glove', is a high net used in the sport of volleyball to divide the playing court."
+    },
+    "object8": {
+        "name": "swimming goggles",
+        "discription": "in parallel with 'baseball glove', are a piece of equipment used by swimmers to protect their eyes from water and improve visibility."
+    }
+}

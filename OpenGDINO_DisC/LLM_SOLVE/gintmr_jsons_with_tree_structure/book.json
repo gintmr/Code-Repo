@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "book",
+        "discription": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    "object1": {
+        "name": "tablet",
+        "discription": "in parallel with 'book', is an electronic device that can display digital versions of books and other media, often used for reading and entertainment."
+    },
+    "object2": {
+        "name": "newspaper",
+        "discription": "in parallel with 'book', is a printed publication consisting of folded sheets, typically containing news, articles, and advertisements."
+    },
+    "object3": {
+        "name": "magazine",
+        "discription": "in parallel with 'book', is a periodical publication containing articles, stories, photographs, and advertisements, often on specialized topics."
+    },
+    "object4": {
+        "name": "comic",
+        "discription": "in parallel with 'book', is a printed work featuring sequences of drawings, often with dialogue and narrative, typically aimed at children or young adults."
+    },
+    "object5": {
+        "name": "notebook",
+        "discription": "in parallel with 'book', is a bound collection of blank or lined pages, used for writing notes, sketches, or personal reflections."
+    },
+    "object6": {
+        "name": "encyclopedia",
+        "discription": "in parallel with 'book', is a comprehensive reference work containing articles on a wide range of subjects or on many aspects of a particular field."
+    },
+    "object7": {
+        "name": "manual",
+        "discription": "in parallel with 'book', is a guidebook or reference work providing detailed instructions or information on how to perform tasks or operate equipment."
+    },
+    "object8": {
+        "name": "diary",
+        "discription": "in parallel with 'book', is a personal record of daily events, thoughts, and feelings, often kept in a bound journal."
+    }
+}

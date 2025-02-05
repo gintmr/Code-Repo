@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "fire hydrant",
+        "discription": "a vertical pipe with a valve and a nozzle, used for extinguishing fires"
+    },
+    "object1": {
+        "name": "water fountain",
+        "discription": "in parallel with 'fire hydrant', is a structure that provides a stream of water for public use, often found in parks and plazas"
+    },
+    "object2": {
+        "name": "street lamp",
+        "discription": "in parallel with 'fire hydrant', is a tall pole with a light fixture, used for illuminating streets at night"
+    },
+    "object3": {
+        "name": "mailbox",
+        "discription": "in parallel with 'fire hydrant', is a container for receiving and sending mail, typically found on street corners"
+    },
+    "object4": {
+        "name": "park bench",
+        "discription": "in parallel with 'fire hydrant', is a long seat for multiple people, often found in parks and public areas"
+    },
+    "object5": {
+        "name": "traffic light",
+        "discription": "in parallel with 'fire hydrant', is a set of colored lights used to control the flow of traffic at intersections"
+    },
+    "object6": {
+        "name": "telephone booth",
+        "discription": "in parallel with 'fire hydrant', is a small structure housing a public telephone, often found on streets"
+    },
+    "object7": {
+        "name": "parking meter",
+        "discription": "in parallel with 'fire hydrant', is a device used to collect payment for parking a vehicle in a specific spot"
+    },
+    "object8": {
+        "name": "bus stop",
+        "discription": "in parallel with 'fire hydrant', is a designated area where buses pick up and drop off passengers, typically found along streets"
+    }
+}

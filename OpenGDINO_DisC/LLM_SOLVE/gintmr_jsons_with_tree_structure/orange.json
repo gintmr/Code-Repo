@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "orange",
+        "discription": "a citrus fruit known for its bright color and tangy flavor"
+    },
+    "object1": {
+        "name": "apple",
+        "discription": "in parallel with 'orange', is a fruit with a crisp texture and sweet taste, often red or green"
+    },
+    "object2": {
+        "name": "banana",
+        "discription": "in parallel with 'orange', is a long, curved fruit with a soft, creamy texture and sweet flavor"
+    },
+    "object3": {
+        "name": "grape",
+        "discription": "in parallel with 'orange', is a small, round fruit that grows in clusters, with a sweet or tart taste"
+    },
+    "object4": {
+        "name": "kiwi",
+        "discription": "in parallel with 'orange', is a small, brown fruit with green flesh and tiny black seeds, known for its tangy-sweet flavor"
+    },
+    "object5": {
+        "name": "mango",
+        "discription": "in parallel with 'orange', is a tropical fruit with a sweet, juicy flesh and a large, flat seed in the center"
+    },
+    "object6": {
+        "name": "pineapple",
+        "discription": "in parallel with 'orange', is a tropical fruit with a tough, spiky exterior and sweet, tangy flesh"
+    },
+    "object7": {
+        "name": "strawberry",
+        "discription": "in parallel with 'orange', is a small, red fruit with a sweet taste and tiny seeds on the surface"
+    },
+    "object8": {
+        "name": "watermelon",
+        "discription": "in parallel with 'orange', is a large, juicy fruit with a green rind and sweet, red flesh"
+    }
+}

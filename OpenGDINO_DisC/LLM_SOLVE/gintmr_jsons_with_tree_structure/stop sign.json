@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "stop sign",
+        "discription": "a traffic sign indicating that vehicles must stop at an intersection"
+    },
+    "object1": {
+        "name": "yield sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating that vehicles must yield the right-of-way to other vehicles or pedestrians"
+    },
+    "object2": {
+        "name": "speed limit sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating the maximum speed allowed on a particular road"
+    },
+    "object3": {
+        "name": "no parking sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating that parking is prohibited in a specific area"
+    },
+    "object4": {
+        "name": "pedestrian crossing sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating a designated area where pedestrians may cross the road"
+    },
+    "object5": {
+        "name": "one way sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating that vehicles are allowed to travel in only one direction"
+    },
+    "object6": {
+        "name": "no entry sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating that vehicles are prohibited from entering a particular area"
+    },
+    "object7": {
+        "name": "school zone sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating a reduced speed limit in areas near schools"
+    },
+    "object8": {
+        "name": "road work sign",
+        "discription": "in parallel with 'stop sign', is a traffic sign indicating that road construction or maintenance is taking place ahead"
+    }
+}

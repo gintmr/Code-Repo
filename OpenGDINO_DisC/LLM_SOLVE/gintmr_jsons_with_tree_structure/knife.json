@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "knife",
+        "discription": "a sharp-edged tool used for cutting"
+    },
+    "object1": {
+        "name": "scissors",
+        "discription": "in parallel with 'knife', is a tool with two blades connected by a hinge, used for cutting paper or fabric"
+    },
+    "object2": {
+        "name": "saw",
+        "discription": "in parallel with 'knife', is a tool with a serrated blade used for cutting wood or metal"
+    },
+    "object3": {
+        "name": "hammer",
+        "discription": "in parallel with 'knife', is a tool with a heavy head used for driving nails or breaking objects"
+    },
+    "object4": {
+        "name": "pliers",
+        "discription": "in parallel with 'knife', is a tool with jaws used for gripping, bending, or cutting wire"
+    },
+    "object5": {
+        "name": "wrench",
+        "discription": "in parallel with 'knife', is a tool with a handle and a jawed head used for turning nuts or bolts"
+    },
+    "object6": {
+        "name": "drill",
+        "discription": "in parallel with 'knife', is a tool with a rotating cutting bit used for making holes in various materials"
+    },
+    "object7": {
+        "name": "tweezers",
+        "discription": "in parallel with 'knife', is a tool with two thin arms joined at one end, used for picking up small objects"
+    },
+    "object8": {
+        "name": "chisel",
+        "discription": "in parallel with 'knife', is a tool with a sharp edge used for carving or cutting hard materials"
+    }
+}

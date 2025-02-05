@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "microwave",
+        "discription": "a kitchen appliance used for heating food quickly by electromagnetic radiation"
+    },
+    "object1": {
+        "name": "oven",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for baking and roasting food at high temperatures"
+    },
+    "object2": {
+        "name": "refrigerator",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for preserving food at low temperatures to prevent spoilage"
+    },
+    "object3": {
+        "name": "dishwasher",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for cleaning dishes and utensils automatically"
+    },
+    "object4": {
+        "name": "blender",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for mixing, pureeing, or emulsifying food and liquids"
+    },
+    "object5": {
+        "name": "toaster",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for browning the surface of bread products"
+    },
+    "object6": {
+        "name": "coffee maker",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for brewing coffee by passing hot water through ground coffee"
+    },
+    "object7": {
+        "name": "rice cooker",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for cooking rice by maintaining a constant temperature"
+    },
+    "object8": {
+        "name": "slow cooker",
+        "discription": "in parallel with 'microwave', is a kitchen appliance used for cooking food slowly at low temperatures, often for several hours"
+    }
+}

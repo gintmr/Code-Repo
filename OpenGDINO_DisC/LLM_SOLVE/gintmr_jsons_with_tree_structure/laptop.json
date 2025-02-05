@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "laptop",
+        "discription": "a portable personal computer"
+    },
+    "object1": {
+        "name": "desktop",
+        "discription": "in parallel with 'laptop', is a stationary personal computer"
+    },
+    "object2": {
+        "name": "tablet",
+        "discription": "in parallel with 'laptop', is a portable touchscreen device"
+    },
+    "object3": {
+        "name": "smartphone",
+        "discription": "in parallel with 'laptop', is a portable touchscreen phone with advanced computing capabilities"
+    },
+    "object4": {
+        "name": "notebook",
+        "discription": "in parallel with 'laptop', is a small book for writing notes"
+    },
+    "object5": {
+        "name": "e-reader",
+        "discription": "in parallel with 'laptop', is a portable device for reading digital books"
+    },
+    "object6": {
+        "name": "calculator",
+        "discription": "in parallel with 'laptop', is a small electronic device for performing mathematical calculations"
+    },
+    "object7": {
+        "name": "typewriter",
+        "discription": "in parallel with 'laptop', is a mechanical or electromechanical machine for typing text"
+    },
+    "object8": {
+        "name": "projector",
+        "discription": "in parallel with 'laptop', is a device that projects images or videos onto a screen or surface"
+    }
+}

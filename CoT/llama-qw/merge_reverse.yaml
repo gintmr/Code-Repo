@@ -1,0 +1,14 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /data05/wuxinrui/DATA/QW2_5-3B-instruct  ###自己存放本地模型的文件夹
+adapter_name_or_path: /data05/wuxinrui/LLaMA-Factory/saves/Qwen2.5-3B-Instruct/lora/reverse ### 训练后模型的存储位置
+template: qwen ###qwen系列的template均为这个
+finetuning_type: lora
+trust_remote_code: true
+
+### export
+export_dir: models/reverse
+export_size: 2
+export_device: cpu
+export_legacy_format: false

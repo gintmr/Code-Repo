@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "spoon",
+        "discription": "a utensil with a shallow bowl-shaped container and a handle, used for scooping and serving food"
+    },
+    "object1": {
+        "name": "fork",
+        "discription": "in parallel with 'spoon', is a utensil with prongs, used for piercing and lifting food"
+    },
+    "object2": {
+        "name": "knife",
+        "discription": "in parallel with 'spoon', is a utensil with a sharp blade, used for cutting and slicing food"
+    },
+    "object3": {
+        "name": "chopsticks",
+        "discription": "in parallel with 'spoon', is a pair of slender sticks, used for picking up food in Asian cuisine"
+    },
+    "object4": {
+        "name": "spatula",
+        "discription": "in parallel with 'spoon', is a flat, broad-bladed instrument, used for mixing, spreading, or lifting food"
+    },
+    "object5": {
+        "name": "ladle",
+        "discription": "in parallel with 'spoon', is a large, deep spoon with a long handle, used for serving soup or liquid foods"
+    },
+    "object6": {
+        "name": "tongs",
+        "discription": "in parallel with 'spoon', is a gripping tool with two arms, used for picking up and handling food items"
+    },
+    "object7": {
+        "name": "whisk",
+        "discription": "in parallel with 'spoon', is a tool with a set of wire loops, used for beating and mixing ingredients"
+    },
+    "object8": {
+        "name": "rolling pin",
+        "discription": "in parallel with 'spoon', is a cylindrical tool, used for rolling out dough in baking"
+    }
+}

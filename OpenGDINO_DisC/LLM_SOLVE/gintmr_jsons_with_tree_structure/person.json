@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "person",
+        "discription": "a human being, whether an adult or a child"
+    },
+    "object1": {
+        "name": "robot",
+        "discription": "in parallel with 'person', is an artificial being designed to perform tasks automatically or to simulate human behavior"
+    },
+    "object2": {
+        "name": "doll",
+        "discription": "in parallel with 'person', is a model of a human figure, often used as a child's toy"
+    },
+    "object3": {
+        "name": "zombie",
+        "discription": "in parallel with 'person', is a fictional undead creature that is typically portrayed as a reanimated corpse"
+    },
+    "object4": {
+        "name": "elf",
+        "discription": "in parallel with 'person', is a mythical creature of human appearance but with pointed ears, magical powers, and a long lifespan"
+    },
+    "object5": {
+        "name": "alien",
+        "discription": "in parallel with 'person', is an extraterrestrial being, often depicted in science fiction as having an appearance radically different from humans"
+    },
+    "object6": {
+        "name": "android",
+        "discription": "in parallel with 'person', is a robot with a human appearance, often designed to look and act like a human"
+    },
+    "object7": {
+        "name": "ghost",
+        "discription": "in parallel with 'person', is a supernatural entity believed to be a disembodied soul of a deceased person"
+    },
+    "object8": {
+        "name": "golem",
+        "discription": "in parallel with 'person', is a mythical creature, typically made of clay or stone, brought to life to serve a specific purpose"
+    }
+}

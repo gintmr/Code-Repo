@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "banana",
+        "discription": "a fruit with a yellow skin and soft, sweet flesh"
+    },
+    "object1": {
+        "name": "apple",
+        "discription": "in parallel with 'banana', is a fruit with a red, green, or yellow skin and crisp flesh"
+    },
+    "object2": {
+        "name": "orange",
+        "discription": "in parallel with 'banana', is a citrus fruit with a thick, orange skin and juicy segments"
+    },
+    "object3": {
+        "name": "grape",
+        "discription": "in parallel with 'banana', is a small, round fruit that grows in clusters and can be green, red, or purple"
+    },
+    "object4": {
+        "name": "pineapple",
+        "discription": "in parallel with 'banana', is a tropical fruit with a tough, spiky skin and sweet, tangy flesh"
+    },
+    "object5": {
+        "name": "strawberry",
+        "discription": "in parallel with 'banana', is a small, red fruit with a sweet taste and seeds on the outside"
+    },
+    "object6": {
+        "name": "mango",
+        "discription": "in parallel with 'banana', is a tropical fruit with a sweet, juicy flesh and a large, flat seed"
+    },
+    "object7": {
+        "name": "kiwi",
+        "discription": "in parallel with 'banana', is a small, brown fruit with green flesh and tiny black seeds"
+    },
+    "object8": {
+        "name": "pear",
+        "discription": "in parallel with 'banana', is a fruit with a green or yellow skin and a soft, juicy flesh"
+    }
+}

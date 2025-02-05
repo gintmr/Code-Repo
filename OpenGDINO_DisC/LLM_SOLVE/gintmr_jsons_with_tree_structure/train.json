@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "train",
+        "discription": "a long vehicle with multiple carriages designed for transporting passengers or goods along tracks"
+    },
+    "object1": {
+        "name": "airplane",
+        "discription": "in parallel with 'train', is a powered flying vehicle with fixed wings and one or more engines, designed for air travel"
+    },
+    "object2": {
+        "name": "ship",
+        "discription": "in parallel with 'train', is a large watercraft designed for deep-sea navigation and transport of goods or passengers"
+    },
+    "object3": {
+        "name": "bus",
+        "discription": "in parallel with 'train', is a large road vehicle designed to carry passengers, typically on urban and suburban routes"
+    },
+    "object4": {
+        "name": "bicycle",
+        "discription": "in parallel with 'train', is a two-wheeled, human-powered vehicle used for personal transportation"
+    },
+    "object5": {
+        "name": "helicopter",
+        "discription": "in parallel with 'train', is a rotorcraft with horizontally spinning rotors providing lift and thrust for vertical flight"
+    },
+    "object6": {
+        "name": "submarine",
+        "discription": "in parallel with 'train', is a watercraft capable of independent operation underwater, used for naval warfare or research"
+    },
+    "object7": {
+        "name": "rocket",
+        "discription": "in parallel with 'train', is a vehicle or missile that obtains thrust by the reaction of the rocket engine"
+    },
+    "object8": {
+        "name": "tram",
+        "discription": "in parallel with 'train', is a rail vehicle which runs on tracks along public urban streets and also sometimes on separate rights of way"
+    }
+}

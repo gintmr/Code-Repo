@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "hot dog",
+        "discription": "a popular fast food item consisting of a sausage served in the slit of a partially sliced bun"
+    },
+    "object1": {
+        "name": "hamburger",
+        "discription": "in parallel with 'hot dog', is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun"
+    },
+    "object2": {
+        "name": "pizza",
+        "discription": "in parallel with 'hot dog', is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven"
+    },
+    "object3": {
+        "name": "taco",
+        "discription": "in parallel with 'hot dog', is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling"
+    },
+    "object4": {
+        "name": "sandwich",
+        "discription": "in parallel with 'hot dog', is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type"
+    },
+    "object5": {
+        "name": "burrito",
+        "discription": "in parallel with 'hot dog', is a dish in Mexican and Tex-Mex cuisine that consists of a flour tortilla wrapped into a sealed cylindrical shape around various ingredients"
+    },
+    "object6": {
+        "name": "sushi",
+        "discription": "in parallel with 'hot dog', is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanying a variety of ingredients, such as seafood, often raw, and vegetables"
+    },
+    "object7": {
+        "name": "kebab",
+        "discription": "in parallel with 'hot dog', is a cooked meat dish, with its origins in Middle Eastern cuisine. Numerous variants are popular around the world"
+    },
+    "object8": {
+        "name": "bagel",
+        "discription": "in parallel with 'hot dog', is a bread product originating in the Jewish communities of Poland. It is traditionally shaped by hand into the form of a ring from yeasted wheat dough, roughly hand-sized, that is first boiled for a short time in water and then baked"
+    }
+}

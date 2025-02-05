@@ -1,0 +1,38 @@
+{
+    "noun": {
+        "name": "pottedplant",
+        "discription": "a plant grown in a pot or other container, typically indoors or in a garden"
+    },
+    "object1": {
+        "name": "terrarium",
+        "discription": "in parallel with 'pottedplant', is a sealed transparent container containing soil and plants, often used to grow small plants and create a miniature ecosystem"
+    },
+    "object2": {
+        "name": "bonsai",
+        "discription": "in parallel with 'pottedplant', is a Japanese art form using cultivation techniques to grow small trees in containers, creating the visual beauty of a full-sized tree"
+    },
+    "object3": {
+        "name": "aquarium",
+        "discription": "in parallel with 'pottedplant', is a vivarium of any size having at least one transparent side in which water-dwelling plants and animals are kept and displayed"
+    },
+    "object4": {
+        "name": "cactus",
+        "discription": "in parallel with 'pottedplant', is a type of plant with thick, fleshy stems and spines, adapted to survive in dry environments"
+    },
+    "object5": {
+        "name": "fern",
+        "discription": "in parallel with 'pottedplant', is a vascular plant that reproduces via spores and has no flowers or seeds, often grown as a decorative houseplant"
+    },
+    "object6": {
+        "name": "orchid",
+        "discription": "in parallel with 'pottedplant', is a diverse and widespread family of flowering plants with colorful and fragrant blooms, often cultivated for their beauty"
+    },
+    "object7": {
+        "name": "succulent",
+        "discription": "in parallel with 'pottedplant', is a plant with parts that are thickened, fleshy, and engorged, usually to retain water in arid climates or soil conditions"
+    },
+    "object8": {
+        "name": "airplant",
+        "discription": "in parallel with 'pottedplant', is a type of plant that does not require soil to grow, absorbing moisture and nutrients directly from the air and rain"
+    }
+}
