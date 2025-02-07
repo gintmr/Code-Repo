@@ -184,7 +184,7 @@ class Qwen2RotaryEmbedding(nn.Module):
 
         # Core RoPE block
         # 将self.inv_freq扩展为与position_ids形状相同的张量
-        inv_freq_expanded = self.inv_freq[None, :, None].float().expand(position_ids.shape[0], -1, 1)
+        inv_freq_expanded = self.inv_freq[None, :, None].float().expand(position_ids.shape[0], -1, 1)# 偶索引，
         # 将position_ids扩展为与self.inv_freq形状相同的张量
         position_ids_expanded = position_ids[:, None, :].float()
         # Force float32 (see https://github.com/huggingface/transformers/pull/29285)
@@ -310,18 +310,95 @@ def get_delta_array(length):
         delta_array[0, i] = 1 / ((1 + (1/length) * i) ** 0.3) ## 多项数衰减
     return delta_array
 
+def apply_ldpe_position_emb_2024(q, k, cos, sin, length, position_ids=None, unsqueeze_dim=1):
+    """Apply Length-Dependent Positional Embedding (LDPE) to query and key tensors."""
+    #print(f"q.shape: {q.shape}")
+    #print(q)
+    # print(f"position_ids = {position_ids}")
+    q_embed, k_embed = apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1)
+    
+    batch_size=q_embed.shape[0]
+    # 循环处理每个 batch 元素
+    rank=torch.distributed.get_rank()
+    #print("sjkjfdafklnadfklnklnfdaklj!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    for i in range(batch_size):
+        # 计算当前 batch 元素的 LDPE_q
+        env_var_name = f"RANK_{rank}_ONES_COUNT_{i}"
+        value = os.getenv(env_var_name)
+        #print(f"env_var_name = {env_var_name}, value = {value}")
+        value=int(value)
+        ldpe_q = _compute_ldpe_2024(position_ids, value, q_embed.size(-1))
+        # 去掉前两个维度为 1 的维度，使其形状与 q_embed[i] 匹配
+        ldpe_q = ldpe_q.squeeze(0).squeeze(0)
+        # 将 LDPE_q 叠加到 q_embed 的当前元素上
+        q_embed[i] = q_embed[i] + ldpe_q
+
+        # 计算当前 batch 元素的 LDPE_k
+        ldpe_k = _compute_ldpe_2024(position_ids, value, k_embed.size(-1))
+        # 去掉前两个维度为 1 的维度，使其形状与 k_embed[i] 匹配
+        ldpe_k = ldpe_k.squeeze(0).squeeze(0)
+        # 将 LDPE_k 叠加到 k_embed 的当前元素上
+        k_embed[i] = k_embed[i] + ldpe_k
+
+    return q_embed, k_embed
+# 全局变量来存储第一次调用时的长度
+first_call_length = None
+
+def _compute_ldpe_2024(positions, length, dim):
+    global first_call_length
+    
+    """Compute LDPE (Length-Dependent Positional Embedding)."""
+    # 计算逆频率
+    #print(f"postions.shape = {positions.shape}")# (1,232)
+    inv_freq = 1.0 / (10000 ** (torch.arange(0, dim, 2, dtype=torch.float) / dim))
+    inv_freq = inv_freq.to(positions.device)
+    t = length - positions  # [batch_size, seq_len]  ##[1,7]
+    t = torch.clamp(t, min=0)
+    #print(t.shape)
+    #print(t)
+    #t=positions
+    
+    t = t.to(positions.device)
+
+    # 计算频率
+    # print(f"t.shape = {t.shape}")
+    # print(f"inv_freq.shape = {inv_freq.shape}")
+  
+    freqs = torch.einsum("ij,k -> ijk", t, inv_freq)  # [batch_size, seq_len, dim/2]
+    cos = freqs.cos()  # [batch_size, seq_len, dim/2]
+    sin = freqs.sin()  # [batch_size, seq_len, dim/2]
+    # 拼接正弦和余弦
+    #ddd 实际上，正余弦是穿插排列的，而非直接凭拼接
+    #DDD ->操作有误：ldpe = torch.cat((sin, cos), dim=-1)  # [batch_size, seq_len, dim]
+    #ddd 参见下方：
+    stacked = torch.stack((sin, cos),dim = -1)
+    #print(stacked.shape)
+    #print(stacked)
+    ldpe = stacked.reshape(sin.shape[0], sin.shape[1], -1)
+    #print(f"ldpe.shape = {ldpe.shape}")
+    #print(f"ldpe = {ldpe}")
+    return ldpe[:,None,:,:]
+
 
 def apply_ldpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze_dim=1):
     """Apply Length-Dependent Positional Embedding (LDPE) to query and key tensors."""
     
-    print(f"position_ids = {position_ids}")
+    #print(f"position_ids.shape = {position_ids.shape}")
+    #print(f"q.shape = {q.shape}")
+
     q_embed, k_embed = apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1)
-    
+    #print(f"q_embed.shape = {q_embed.shape}")
+    #print(f"k_embed.shape = {k_embed.shape}")
     
     # 计算 LDPE
     ldpe_q = _compute_ldpe(position_ids, length, q.size(-1))
     ldpe_k = _compute_ldpe(position_ids, length, k.size(-1))
-    print(f"query.shape = {q_embed.shape}")
+    # print(q_embed.device)
+    # if q_embed.device.index == 0:
+        # print(f"query.shape = {q_embed.shape}")
+    # print(f"position_ids = {position_ids}") ## 与q的第三个维度一样长
+    # print(f"query-1:{q_embed[0][0][0]}")
+    # print(f"query-2:{q_embed[0][0][1]}")
 
     # 将 LDPE 叠加到 query 和 key 上
     q_embed = q_embed + ldpe_q
@@ -332,16 +409,24 @@ def apply_ldpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze
 def _compute_ldpe(positions, length, dim):
     """Compute LDPE (Length-Dependent Positional Embedding)."""
     # 计算逆频率
+    #print(f"positions.shape = {positions.shape}")
+    #print(f"postions = {positions}")
     inv_freq = 1.0 / (10000 ** (torch.arange(0, dim, 2, dtype=torch.float) / dim))
     inv_freq = inv_freq.to(positions.device)
+
+    ## 输出positions形状，用于查看每个分句（len）的性质
+    batch_size, seq_len= positions.shape
+    #print(f"batchsize = {batch_size}")
+    #print(f"seq_len = {seq_len}")
+
 
     # 计算位置与长度的差值
     t = length - positions  # [batch_size, seq_len]  ##[1,7]
     t = t.to(positions.device)
 
     # 计算频率
-    print(f"t.shape = {t.shape}")
-    print(f"inv_freq.shape = {inv_freq.shape}")
+    # print(f"t.shape = {t.shape}")
+    # print(f"inv_freq.shape = {inv_freq.shape}")
   
     freqs = torch.einsum("ij,k -> ijk", t, inv_freq)  # [batch_size, seq_len, dim/2]
     cos = freqs.cos()  # [batch_size, seq_len, dim/2]
@@ -354,7 +439,7 @@ def _compute_ldpe(positions, length, dim):
     stacked = torch.stack((sin, cos),dim = -1)
     
     ldpe = stacked.reshape(sin.shape[0], sin.shape[1], -1)
-    
+    #print(f"ldpe.shape = {ldpe.shape}")
     return ldpe
 
     
@@ -376,7 +461,7 @@ def apply_lrpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze
 def _compute_lrpe(positions, length, dim):
     """Compute LRPE (Length-Reversed Positional Embedding)."""
     # 计算逆频率
-    inv_freq = 1.0 / ((length * 10000) ** (torch.arange(0, dim, 2, dtype=torch.float) / dim))
+    inv_freq = 1.0 / ((length) ** (torch.arange(0, dim, 2, dtype=torch.float) / dim))
     inv_freq = inv_freq.to(positions.device)
 
     # 计算位置信息
@@ -396,6 +481,7 @@ def _compute_lrpe(positions, length, dim):
     lrpe = stacked.reshape(sin.shape[0], sin.shape[1], -1)
     
     return lrpe
+
 
 
 ##############################################################?
@@ -434,6 +520,7 @@ def repeat_kv(hidden_states: torch.Tensor, n_rep: int) -> torch.Tensor:
     This is the equivalent of torch.repeat_interleave(x, dim=1, repeats=n_rep). The hidden states go from (batch,
     num_key_value_heads, seqlen, head_dim) to (batch, num_attention_heads, seqlen, head_dim)
     """
+    # print(f"hidden_states shape: {hidden_states.shape}")
     batch, num_key_value_heads, slen, head_dim = hidden_states.shape
     if n_rep == 1:
         return hidden_states
@@ -698,6 +785,7 @@ class Qwen2SdpaAttention(Qwen2Attention):
         use_cache: bool = False,
         cache_position: Optional[torch.LongTensor] = None,
         position_embeddings: Optional[Tuple[torch.Tensor, torch.Tensor]] = None,  # will become mandatory in v4.46
+        length_list: Optional[list]=None,
     ) -> Tuple[torch.Tensor, Optional[torch.Tensor], Optional[Tuple[torch.Tensor]]]:
         if output_attentions:
             # TODO: Improve this warning with e.g. `model.config.attn_implementation = "manual"` once this is implemented.
@@ -746,7 +834,7 @@ class Qwen2SdpaAttention(Qwen2Attention):
         
         budget = os.getenv("BUDGET", len(position_ids[0]))
         
-        print(f"budget_1 = {budget}")
+        # print(f"budget_1 = {budget}")
         
         if budget == "POS":
             budget = len(position_ids[0])   
@@ -754,25 +842,71 @@ class Qwen2SdpaAttention(Qwen2Attention):
         else:
             budget = int(budget)
         
-        print(f"budget_2 = {budget}")
+        # print(f"length_list = {length_list}")
+        
+        
+        # print(f"budget_2 = {budget}")
         # print(f"当前模式：{mode}")
         
-        if mode == "default":
-            query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
-        
-        elif mode == "reverse":
-            query_states, key_states = apply_reverse_position_emb(query_states, key_states, cos, sin, length = budget)
-
-        elif mode == "hybrid":
-            query_states, key_states = apply_hybrid_position_emb(query_states, key_states, cos, sin, length = budget)
+        processed_query_states = []
+        processed_key_states = []
+        # print(f"queryshape = {query_states.shape}, {query_states.device}")
+        for i in range(query_states.shape[0]):
+            # print(f"qshape = {query_states.shape}, {query_states.device}")
+            ### 变量名前后相同的话会相互影响
+            q = query_states[i]  # 获取第 i 个样本的 query_states
+            k = key_states[i]    # 获取第 i 个样本的 key_states
+            # print(f"q:{q.shape}")
+            budget = length_list[i]
+            if mode == "default":
+                query_states_, key_states_ = apply_rotary_pos_emb(q, k, cos, sin)
             
-        elif mode == "ldpe":
-            query_states, key_states = apply_ldpe_position_emb(query_states, key_states, cos, sin, length = budget, position_ids=position_ids)
+            elif mode == "reverse":
+                query_states_, key_states_ = apply_reverse_position_emb(q, k, cos, sin, length = budget)
+
+            elif mode == "hybrid":
+                query_states, key_states = apply_hybrid_position_emb(q, k, cos, sin, length = budget)
+                
+            elif mode == "ldpe":
+                query_states_, key_states_ = apply_ldpe_position_emb(q, k, cos, sin, length = budget, position_ids=position_ids)
+    
+            elif mode == "lrpe":
+                query_states_, key_states_ = apply_lrpe_position_emb(q, k, cos, sin, length = budget, position_ids=position_ids) 
+                        
+            elif mode == "2024":
+                query_states_, key_states_ = apply_ldpe_position_emb_2024(q, k, cos, sin, length = budget, position_ids=position_ids)  
+
+            # print(f"query_states_: {query_states_.shape}")
+
+            processed_query_states.append(query_states_)
+            processed_key_states.append(key_states_)
+                            
+        # 将列表中的结果合并回原来的批次形式
+        query_states = torch.cat(processed_query_states, dim=0)
+        # print(f"queryshape = {query_states.shape}")
+        key_states = torch.cat(processed_key_states, dim=0)
+
+
+
+        
+        
+        # if mode == "default":
+        #     query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+        
+        # elif mode == "reverse":
+        #     query_states, key_states = apply_reverse_position_emb(query_states, key_states, cos, sin, length = budget)
+
+        # elif mode == "hybrid":
+        #     query_states, key_states = apply_hybrid_position_emb(query_states, key_states, cos, sin, length = budget)
+            
+        # elif mode == "ldpe":
+        #     #print("ld",end='')
+        #     query_states, key_states = apply_ldpe_position_emb(query_states, key_states, cos, sin, length = budget, position_ids=position_ids)
    
-        elif mode == "lrpe":
-            query_states, key_states = apply_lrpe_position_emb(query_states, key_states, cos, sin, length = budget, position_ids=position_ids)         
-        
-        
+        # elif mode == "lrpe":
+        #     query_states, key_states = apply_lrpe_position_emb(query_states, key_states, cos, sin, length = budget, position_ids=position_ids)         
+        # elif mode == "2024":
+        #     query_states, key_states = apply_ldpe_position_emb_2024(query_states, key_states, cos, sin, length = budget, position_ids=position_ids)
         
         if past_key_value is not None:
             cache_kwargs = {"sin": sin, "cos": cos, "cache_position": cache_position}  # Specific to RoPE models
@@ -852,6 +986,7 @@ class Qwen2DecoderLayer(nn.Module):
         use_cache: Optional[bool] = False,
         cache_position: Optional[torch.LongTensor] = None,
         position_embeddings: Optional[Tuple[torch.Tensor, torch.Tensor]] = None,  # will become mandatory in v4.46
+        length_list: Optional[list]=None,
         **kwargs,
     ) -> Tuple[torch.FloatTensor, Optional[Tuple[torch.FloatTensor, torch.FloatTensor]]]:
         """
@@ -893,6 +1028,7 @@ class Qwen2DecoderLayer(nn.Module):
             use_cache=use_cache,
             cache_position=cache_position,
             position_embeddings=position_embeddings,
+            length_list = length_list,
         )
         # 将原始的hidden_states和新的hidden_states相加
         hidden_states = residual + hidden_states
@@ -1071,7 +1207,19 @@ class Qwen2Model(Qwen2PreTrainedModel):
         self.post_init()
         
         
-        
+    ############!
+    
+    def find_start_index(self, array, target_value):
+        for i, value in enumerate(array):
+            if value == target_value:
+                return i+1 ## 因为正常情况下，会将两个151643放一起
+        return -1  # 如果没有找到，返回-1    
+    
+    
+    ################!
+    
+    
+    
     def get_input_embeddings(self):
         return self.embed_tokens
 
@@ -1127,8 +1275,29 @@ class Qwen2Model(Qwen2PreTrainedModel):
 
         if inputs_embeds is None:
             inputs_embeds = self.embed_tokens(input_ids)
-
+            
+        # from transformers import AutoTokenizer
+        # import numpy as np
+        
+        # # print(f"Input_ids = {input_ids}")
+        # tokenizer = AutoTokenizer.from_pretrained("/data05/wuxinrui/DATA/QW2_5-3B-instruct")
+        # input_ids_cpu = input_ids.cpu()
+        # print("111")
+        # print(input_ids_cpu[0])
+        # print("222")
+        # print(input_ids_cpu[1])
+        # input_ids_cpu1 = [int(i) for i in input_ids_cpu[0]]
+        # input_ids_cpu2 = [int(i) for i in input_ids_cpu[1]]
+        # decoded_text1 = tokenizer.decode(input_ids_cpu1)
+        # print(f"text = {decoded_text1}")
+        # decoded_text2 = tokenizer.decode(input_ids_cpu2)
+        # print(f"text = {decoded_text2}")
         # print(f"input_ids.shape = {input_ids.shape}")
+        
+        
+        
+        #!
+        length_list = [self.find_start_index(input_ids_single_seq, 151643) for input_ids_single_seq in input_ids]
         
         
         # 如果cache_position为None，则获取past_key_values的序列长度，如果past_key_values为None，则序列长度为0
@@ -1140,7 +1309,7 @@ class Qwen2Model(Qwen2PreTrainedModel):
             )
         ## cache_position用于告诉模型当前 tokrn在整个序列中的位置
         
-        
+        # print(f"cache_position = {cache_position}")
         
         # 如果position_ids为None，则将cache_position在第0维上扩展1维，赋值给position_ids
         if position_ids is None:
@@ -1152,6 +1321,13 @@ class Qwen2Model(Qwen2PreTrainedModel):
         )
 
         hidden_states = inputs_embeds
+        
+        ####################!
+        # # print(inputs_embeds.device)
+        # if inputs_embeds.device.index == 0:
+        #     print(f"inputs_embeds.shape = {inputs_embeds.shape}")
+        #     print(f"inputs_embeds = {inputs_embeds}")
+        #######################!
 
         # create position embeddings to be shared across the decoder layers
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
@@ -1176,6 +1352,7 @@ class Qwen2Model(Qwen2PreTrainedModel):
                     use_cache,
                     cache_position,
                     position_embeddings,
+                    length_list,
                 )
             else:
                 layer_outputs = decoder_layer(
@@ -1187,6 +1364,7 @@ class Qwen2Model(Qwen2PreTrainedModel):
                     use_cache=use_cache,
                     cache_position=cache_position,
                     position_embeddings=position_embeddings,
+                    length_list = length_list,
                 )
 
             hidden_states = layer_outputs[0]
