@@ -284,7 +284,7 @@ def apply_reverse_position_emb(q, k, cos, sin, length, position_ids=None, unsque
     # print(f"q_embed.shape: {q_embed.shape}, k_embed.shape: {k_embed.shape}")
 
 
-    delta_array = get_delta_array(length)
+    delta_array = get_delta_array(length, q_embed.shape[2]) ## 长为length，长度不够，置0来凑
 
     delta_array_expand = delta_array.unsqueeze(1).unsqueeze(-1)
     
@@ -294,7 +294,10 @@ def apply_reverse_position_emb(q, k, cos, sin, length, position_ids=None, unsque
     
     delta_array_expand = delta_array_expand.to(device_q)
     # 将q_embed乘以delta_array_expand
+    # print(f"deltaarray.shape = {delta_array_expand.shape}")
+    # print(f"q_embed.sahpe = {q_embed.shape}")
     q_embed = q_embed * delta_array_expand
+    
     
     
     delta_array_expand = delta_array_expand.to(device_k)
@@ -303,11 +306,14 @@ def apply_reverse_position_emb(q, k, cos, sin, length, position_ids=None, unsque
     
     return q_embed, k_embed
 
-def get_delta_array(length):
+def get_delta_array(budget, length):
     """Generate a delta array for reverse position embedding."""
     delta_array = torch.zeros(1, length)
-    for i in range(length):
-        delta_array[0, i] = 1 / ((1 + (1/length) * i) ** 0.3) ## 多项数衰减
+    for i in range(budget):
+        delta_array[0, i] = 1 / ((1 + (1/budget) * i) ** 0.3) ## 多项数衰减
+    if length >= budget:
+        delta_array[0, budget : length] = 1 / ((2) ** 0.3)
+    
     return delta_array
 
 def apply_ldpe_position_emb_2024(q, k, cos, sin, length, position_ids=None, unsqueeze_dim=1):
@@ -415,7 +421,7 @@ def _compute_ldpe(positions, length, dim):
     inv_freq = inv_freq.to(positions.device)
 
     ## 输出positions形状，用于查看每个分句（len）的性质
-    batch_size, seq_len= positions.shape
+    # batch_size, seq_len= positions.shape
     #print(f"batchsize = {batch_size}")
     #print(f"seq_len = {seq_len}")
 
@@ -461,6 +467,10 @@ def apply_lrpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze
 def _compute_lrpe(positions, length, dim):
     """Compute LRPE (Length-Reversed Positional Embedding)."""
     # 计算逆频率
+    if length == -1:
+        print(f"length = {length}")
+    # print(f"dim = {dim}")
+
     inv_freq = 1.0 / ((length) ** (torch.arange(0, dim, 2, dtype=torch.float) / dim))
     inv_freq = inv_freq.to(positions.device)
 
@@ -865,7 +875,7 @@ class Qwen2SdpaAttention(Qwen2Attention):
                 query_states_, key_states_ = apply_reverse_position_emb(q, k, cos, sin, length = budget)
 
             elif mode == "hybrid":
-                query_states, key_states = apply_hybrid_position_emb(q, k, cos, sin, length = budget)
+                query_states_, key_states_ = apply_hybrid_position_emb(q, k, cos, sin, length = budget)
                 
             elif mode == "ldpe":
                 query_states_, key_states_ = apply_ldpe_position_emb(q, k, cos, sin, length = budget, position_ids=position_ids)
@@ -1213,7 +1223,7 @@ class Qwen2Model(Qwen2PreTrainedModel):
         for i, value in enumerate(array):
             if value == target_value:
                 return i+1 ## 因为正常情况下，会将两个151643放一起
-        return -1  # 如果没有找到，返回-1    
+        return len(array)  # 如果没有找到，返回-1    #!不能返回-1.导致loss爆炸的元凶
     
     
     ################!
