@@ -1,0 +1,20 @@
+website:
+  reader-mode: false
+  sidebar:
+    collapse-level: 1
+    contents:
+      - text: "--"
+      - section: "Getting Started"
+        contents: docs/getting-started/*
+      - section: "Capabilities"
+        contents: docs/capabilities/*
+      - section: "Deployment"
+        contents: docs/deployment/*
+      - section: "Tutorials"
+        contents: docs/tutorials/*
+      - section: "Use cases"
+        contents: docs/use-cases/*
+      - section: "API Reference"
+        contents: 
+        - nixtla_client.ipynb
+        - date_features.ipynb
