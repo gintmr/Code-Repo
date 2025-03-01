@@ -256,6 +256,14 @@ def apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1):
 ##############################################################?
 ##############################################################?
 ##############################################################?
+import numpy as np
+def random_token_pp(length, mean=0.025, std=0.01, lower=0, upper=0.05):
+    while True:
+        sample = np.random.normal(loc=mean, scale=std)
+        if lower <= sample <= upper:
+            length = length * (1 + sample)
+
+        return length
 
 def apply_hybrid_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze_dim=1):
     """Apply hybrid position embedding (RoPE + Reverse Position Embedding)."""
@@ -392,6 +400,11 @@ def apply_ldpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze
     #print(f"position_ids.shape = {position_ids.shape}")
     #print(f"q.shape = {q.shape}")
 
+    if os.environ['tokenpp'] == "True":
+        length = random_token_pp(length)
+    else:
+        length = length
+
     q_embed, k_embed = apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1)
     #print(f"q_embed.shape = {q_embed.shape}")
     #print(f"k_embed.shape = {k_embed.shape}")
@@ -451,6 +464,11 @@ def _compute_ldpe(positions, length, dim):
     
 def apply_lrpe_position_emb(q, k, cos, sin, length, position_ids=None, unsqueeze_dim=1):
     """Apply Length-Reversed Positional Embedding (LRPE) to query and key tensors."""
+    
+    if os.environ['tokenpp'] == "True":
+        length = random_token_pp(length)
+    else:
+        length = length
     
     q_embed, k_embed = apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1)
     

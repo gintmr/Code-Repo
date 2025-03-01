@@ -22,6 +22,8 @@
 - CoT\Qwen2.5-Math\evaluation\.vscode\launch.json 用于调试debug_eval文件时的配置
 - D:\@Github_local_storage\Code-Repo\CoT\Qwen2.5-Math\evaluation\math_eval.py 新增了logging模块，记录当前调用的模型路径、环境变量参数内容、测试结果···
 
+- CoT\Qwen-Math\models\qwen2.py 代码对vllm问题生成时的调度方式进行了分析，并适应其调度实现了ldpe方案，且为后续的深入修改铺垫
+
 - 方便起见，删除了data文件夹中的数据内容，仅保留了文件夹
 ---
 仓库代码更新：
