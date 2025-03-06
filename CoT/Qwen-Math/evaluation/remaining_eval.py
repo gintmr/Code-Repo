@@ -16,11 +16,24 @@ from data_loader import load_data
 from python_executor import PythonExecutor
 from model_utils import load_hf_lm_and_tokenizer, generate_completions
 import logging
-os.environ['stage'] = "2"
 ## 启动logging功能
+if not os.path.exists(f'{os.environ["modelname"]}'):
+    os.mkdir(f'{os.environ["modelname"]}')
+if not os.path.exists(f'{os.environ["model"]}'):
+    os.mkdir(f'{os.environ["model"]}')
+    
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S', filename='./wxr/remaining.txt', filemode='a')
-logging.info("2stage")
+                    datefmt='%Y-%m-%d %H:%M:%S', filename=f'{os.environ["model"]}/{os.environ["mode"]}.log', filemode='a')
+
+
+logging.info(f"modelname's infor:  {os.environ['modelname']}")
+logging.info(f"mode's infor:  {os.environ['mode']}")
+logging.info(f"model's infor:  {os.environ['model']}")
+
+
+
+
+
 
 def Ahead(prompt):
     head_of_answer = f"\n<len>{os.environ['BUDGET']}<\len>\n"
@@ -352,13 +365,13 @@ def main(llm, tokenizer, data_name, args):
                                 print('early_positions.pt removed')
                             chunk_outputs = sorted(chunk_outputs, key=lambda x: int(x.request_id))
                             chunk_outputs = [output.outputs[0].text for output in chunk_outputs]
-                            
+                            ### 输出已经被整理过了，不需要再进行排序
                             chunk = [single_chunk + chunk_output for single_chunk, chunk_output in zip(chunk, chunk_outputs)]
                             budget = 50*(2**k) if k >= 0 else 0
                             # print(f"now budget: {budget}")
-                            # print(f"k = {k}")
-                            
-                            
+                            # print(f"k = {k}")     
+                    chunk_outputs = chunk    
+                    outputs.extend(chunk_outputs) 
                     # chunk_outputs = sorted(chunk, key=lambda x: int(x.request_id))
                     # initial_outputs = [output.outputs[0].text for output in chunk_outputs]
                     
@@ -452,15 +465,14 @@ def main(llm, tokenizer, data_name, args):
                             ),
                         ),
                     )
-                    # kv cache: llm.llm_engine.model_executor.driver_worker.cache_engine[0].gpu_cache
-                    # list(36, 2, torch.Size([99784, 16, 2, 128])), chunk_size=128, layer_size, attention_num, 
-                    # 
-                    os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt')
+                    if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt'):
+                        os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt')
                     # os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.npy')
-                    os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt')
-                    # os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.npy')
-                    os.environ["position"] = 'start'
+                    if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt'):
+                        os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt')
 
+                    os.environ["position"] = 'start'
+                    
                 else:
                     chunk_outputs = generate_completions(
                         model=llm,
@@ -471,59 +483,72 @@ def main(llm, tokenizer, data_name, args):
                         stop_id_sequences=stop_words,
                     )
                     outputs.extend(chunk_outputs)
-
+                    
+                #### 输出没被整理，需要按request_id排序
+                chunk_outputs = sorted(
+                    chunk_outputs, key=lambda x: int(x.request_id)
+                )  # sort outputs by request_id
+                outputs.extend([Q + output.outputs[0].text for Q, output in zip(chunk, chunk_outputs)])
         #################!
         ###! stage? 1 or 2
         if os.environ['stage'] == "2":
-            
+            two_stage_outputs = []
             modified_outputs = []
-            for output in chunk_outputs:
-                modified_output = output.rstrip() + "</think>\n\n**Final Answer**\n\\boxed"
+            print(f"len of outputs: {len(outputs)}")
+            for output in outputs:
+                # 去除output字符串末尾的换行符，并添加</think>和**Final Answer**\n\\boxed字符串，将结果添加到modified_outputs列表中
+                modified_output = output + "\n</think>\n\n**Final Answer**\n\\boxed"
                 modified_outputs.append(modified_output)
+                # print(f"modified_output_len: {len(modified_output)}")
             
-            # Second generation with modified outputs
-            second_prompts = [p + mo for p, mo in zip(chunk, modified_outputs)]
-            second_outputs = llm.generate(
-                second_prompts,
-                SamplingParams(
-                    temperature=args.temperature,
-                    top_p=args.top_p,
-                    max_tokens=20,
-                    n=1,
-                    stop=stop_words,
-                    stop_token_ids=(
-                        [151645, 151643]
-                        if "qwen2" in args.model_name_or_path.lower()
-                        else None
-                    ),
-                ),
-            )
-            
-            
-            if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt'):
-                os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt')
-                print('start_positions.pt removed')
-            if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt'):
-                os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt')
-                print('early_positions.pt removed')
-            
-            second_outputs = sorted(second_outputs, key=lambda x: int(x.request_id))
-            second_outputs = [output.outputs[0].text for output in second_outputs]
-            
-            # Combine initial and second outputs
-            combined_outputs = [init + "</think>\n\n**Final Answer**\n\\boxed" + second for init, second in zip(second_prompts, second_outputs)]
-            outputs.extend(combined_outputs)                
+            for i in range(0, num_prompts, chunk_size):
+                modified_chunk = modified_outputs[i:i + chunk_size]  # 获取当前的 chunk
+                if args.use_vllm:
+                    os.environ["position"] = 'start'
 
+                    second_outputs = llm.generate(
+                        modified_chunk,
+                        SamplingParams(
+                            temperature=args.temperature,
+                            top_p=args.top_p,
+                            max_tokens=20,
+                            n=1,
+                            stop=stop_words,
+                            stop_token_ids=(
+                                [151645, 151643]
+                                if "qwen2" in args.model_name_or_path.lower()
+                                else None
+                            ),
+                        ),
+                    )
+            
+            
+                if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt'):
+                    os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/start_positions.pt')
+                    print('start_positions.pt removed')
+                if os.path.exists('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt'):
+                    os.remove('/data05/wuxinrui/Qwen2.5-Math/evaluation/early_positions.pt')
+                    print('early_positions.pt removed')
+                    
+                second_outputs = sorted(second_outputs, key=lambda x: int(x.request_id))
+                second_outputs = [output.outputs[0].text for output in second_outputs]
+                
+                # Combine initial and second outputs
+                combined_outputs = [init + "\n</think>\n\n**Final Answer**\n\\boxed" + second for init, second in zip(modified_chunk, second_outputs)]
+                
+                print(f"len of combined_outputs:{len(combined_outputs)}")
+                two_stage_outputs.extend(combined_outputs) ## 直接覆盖掉就好
+                               
+            outputs = two_stage_outputs
         
         elif os.environ['stage'] == "1":
-            chunk_outputs = sorted(
-                        chunk_outputs, key=lambda x: int(x.request_id)
-                    )  # sort outputs by request_id
-            outputs.extend([output.outputs[0].text for output in chunk_outputs])
+            outputs = outputs
         
         
         
         #################!
+        print(f"outputs:{len(outputs)}")
+        print(f"current_prompts:{len(current_prompts)}")
         assert len(outputs) == len(current_prompts)
 
         # process all outputs
@@ -577,6 +602,7 @@ def main(llm, tokenizer, data_name, args):
             if stop_word in code:
                 code = code.split(stop_word)[0].strip()
         if args.prompt_type == "deepseek3":
+            # print(f"code = {code.split('<｜Assistant｜>')}")
             code  = code.split("<｜Assistant｜>")[1]
         codes.append(code)
 
